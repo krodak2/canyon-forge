@@ -84,11 +84,13 @@
   .cal-nav button{width:30px;height:30px;border-radius:8px;background:#1c1c1c;border:1px solid var(--line);color:#fff;font-weight:800}
   .cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
   .cal-dow{color:var(--gray2);font-size:11px;font-weight:800;text-align:center;padding-bottom:4px}
-  .cal-cell{aspect-ratio:1;display:flex;align-items:center;justify-content:center;font-size:13px;color:var(--gray);border-radius:50%;cursor:pointer}
-  .cal-cell.done{background:var(--accent);color:#000;font-weight:900}
-  .cal-cell.partial{box-shadow:inset 0 0 0 2px var(--accent);color:#fff;font-weight:800}
-  .cal-cell.today{outline:1.5px solid var(--gray)}
-  .cal-cell.sel{outline:2px solid #fff}
+  .cal-cell{aspect-ratio:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;cursor:pointer}
+  .cd-n{width:26px;height:26px;display:flex;align-items:center;justify-content:center;border-radius:50%;font-size:13px;color:var(--gray)}
+  .cal-cell.done .cd-n{background:var(--accent);color:#000;font-weight:900}
+  .cal-cell.partial .cd-n{box-shadow:inset 0 0 0 2px var(--accent);color:#fff;font-weight:800}
+  .cal-cell.today .cd-n{outline:1.5px solid var(--gray);outline-offset:1px}
+  .cal-cell.sel .cd-n{outline:2px solid #fff;outline-offset:1px}
+  .cd-ic{height:11px;line-height:11px;font-size:9px;letter-spacing:-1px}
   .cal-cell.empty{visibility:hidden;cursor:default}
   .legend{display:flex;gap:16px;justify-content:center;margin-top:14px;color:var(--gray2);font-size:11px;font-weight:700}
   .legend i{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:5px;vertical-align:-1px}
@@ -456,7 +458,8 @@ function renderHome(){
   for(let i=0;i<first;i++)cells+=`<div class="cal-cell empty"></div>`;
   for(let d=1;d<=days;d++){const key=y+'-'+pad(m+1)+'-'+pad(d);
     const st=dayStatus(key),cls=st==='full'?'done':st==='partial'?'partial':'';
-    cells+=`<div class="cal-cell ${cls} ${key===tk?'today':''} ${key===selKey?'sel':''}" onclick="selectDay('${key}')">${d}</div>`;}
+    const ic=[...new Set(sessionsForKey(key).filter(mm=>mm.kind!=='rest').map(mm=>mm.emoji))].slice(0,2).join('');
+    cells+=`<div class="cal-cell ${cls} ${key===tk?'today':''} ${key===selKey?'sel':''}" onclick="selectDay('${key}')"><span class="cd-n">${d}</span><span class="cd-ic">${ic}</span></div>`;}
 
   const info=currentPlanWeekInfo();
   let targetsHTML='';
