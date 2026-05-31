@@ -37,6 +37,19 @@
   .streakchip .flame{font-size:18px;display:block}
   .phasebar{margin-top:12px;display:flex;align-items:center;gap:8px;color:var(--gray);font-size:12px;font-weight:700}
   .phasebar .pill{background:var(--card2);border:1px solid var(--line);border-radius:8px;padding:4px 9px;color:var(--accent);font-weight:800;text-transform:uppercase;letter-spacing:.5px}
+  .weekstrip{display:flex;gap:6px;margin:16px 0 2px}
+  .wpill{flex:1;min-width:0;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:9px 0 7px;display:flex;flex-direction:column;align-items:center;gap:5px}
+  .wpill:active{background:var(--card2)}
+  .wpill.sel{border-color:var(--accent);background:#20240f}
+  .wpill .wd{font-size:10px;font-weight:800;text-transform:uppercase;color:var(--gray)}
+  .wpill .dn{font-size:16px;font-weight:900;color:#fff}
+  .wpill.empty .dn{color:var(--gray2)}
+  .wpill.today .dn{text-decoration:underline;text-decoration-color:var(--accent);text-underline-offset:3px}
+  .wdot{width:6px;height:6px;border-radius:50%;background:transparent}
+  .wdot.done{background:var(--accent)}
+  .wdot.partial{box-shadow:inset 0 0 0 1.5px var(--accent)}
+  .wdot.sched{background:#3a3a3a}
+  .swipehint{text-align:center;color:var(--gray2);font-size:11px;font-weight:700;margin:6px 0 0}
   .today-head{margin:18px 0 12px}
   .th-label{color:var(--accent);font-size:12px;font-weight:800;letter-spacing:1.5px}
   .th-date{font-size:23px;font-weight:900;margin-top:2px;letter-spacing:-.3px}
@@ -454,6 +467,8 @@ function renderHome(){
     <div class="brand"><div><h1>Canyon Forge 🏔️</h1><div class="sub">${PLAN.plan.goal}</div></div>
       <div class="streakchip"><span class="flame">🔥</span>${currentStreak()}d</div></div>
     ${phaseHTML}
+    ${weekStripHTML()}
+    <div class="swipehint">‹ swipe to change day ›</div>
     <div class="today-head"><div class="th-label">${isToday?'TODAY':'PLANNED'}</div>
       <div class="th-date">${labelOf(selKey)}</div>
       ${isToday?'':`<button class="th-today" onclick="selectDay('${todayKey()}')">‹ Jump to today</button>`}</div>
@@ -473,6 +488,24 @@ function renderHome(){
 }
 function labelOf(key){const d=dateFromKey(key);return `${DOW[d.getDay()]}, ${MONTHS[d.getMonth()]} ${d.getDate()}`;}
 function calStep(dir){let {y,m}=calMonth;m+=dir;if(m<0){m=11;y--;}if(m>11){m=0;y++;}calMonth={y,m};renderHome();}
+function mondayOf(key){const d=dateFromKey(key);const wd=(d.getDay()+6)%7;d.setDate(d.getDate()-wd);return d;}
+function weekStripHTML(){
+  const mon=mondayOf(selKey);let html='<div class="weekstrip">';
+  for(let i=0;i<7;i++){const d=new Date(mon);d.setDate(mon.getDate()+i);const key=localKey(d);
+    const metas=sessionsForKey(key),has=metas.some(m=>m.kind!=='rest'),st=dayStatus(key);
+    const dot=st==='full'?'done':st==='partial'?'partial':(has?'sched':'');
+    html+=`<button class="wpill ${key===selKey?'sel':''} ${has?'':'empty'} ${key===todayKey()?'today':''}" onclick="selectDay('${key}')">
+      <div class="wd">${DOW[d.getDay()]}</div><div class="dn">${d.getDate()}</div><div class="wdot ${dot}"></div></button>`;}
+  return html+'</div>';
+}
+function shiftDay(n){const d=dateFromKey(selKey);d.setDate(d.getDate()+n);selKey=localKey(d);renderHome();window.scrollTo(0,0);}
+function initSwipe(){
+  const app=document.getElementById('app'); if(app.__swipe)return; app.__swipe=true;
+  let sx=null,sy=null;
+  app.addEventListener('touchstart',e=>{const t=e.changedTouches[0];sx=t.clientX;sy=t.clientY;},{passive:true});
+  app.addEventListener('touchend',e=>{if(route.view!=='home'||sx===null)return;const t=e.changedTouches[0];const dx=t.clientX-sx,dy=t.clientY-sy;sx=null;
+    if(Math.abs(dx)>50&&Math.abs(dx)>Math.abs(dy)*1.5)shiftDay(dx<0?1:-1);},{passive:true});
+}
 
 /* ---------------------- OVERVIEW ---------------------- */
 function renderOverview(id){
@@ -686,6 +719,7 @@ async function boot(){
   catch(e){ PLAN=LS.get('planCache',null); }
   if(!PLAN){ document.getElementById('app').innerHTML='<div class="scroll"><div class="infocard">Couldn’t load <b>plan.json</b>. Make sure it’s uploaded next to the app.</div></div>'; return; }
   render();
+  initSwipe();
 }
 boot();
 </script>
