@@ -138,34 +138,20 @@
           "notes": "From home — flat canal paths / neighborhood. Conversational Z2."
         },
         {
-          "id": "w1-wed-flat",
-          "type": "run",
-          "title": "Flat Aerobic + Strides",
-          "emoji": "🏃",
-          "day": "wed",
-          "runType": "easy",
-          "time": 40,
-          "targets": {
-            "hrZone": "2",
-            "rpe": 4
-          },
-          "notes": "From home — flat canal paths / neighborhood. Easy Z2, finish with 6×20s relaxed strides."
-        },
-        {
-          "id": "w1-wed-pull",
+          "id": "w1-tue-pull",
           "type": "pullups",
           "title": "Pull-Ups",
           "emoji": "🧗",
-          "day": "wed",
+          "day": "tue",
           "useBuiltInProgression": true,
           "notes": "Grease-the-groove: crisp submax sets, stop short of failure."
         },
         {
-          "id": "w1-thu-upper",
+          "id": "w1-wed-upper",
           "type": "strength",
           "title": "Upper — Chest Focus",
           "emoji": "💪",
-          "day": "thu",
+          "day": "wed",
           "duration": 40,
           "equipment": "Bar · Dumbbells · Bench · TRX",
           "notes": "Go hard — upper work doesn't cost the legs. Supersets (🔁) run back-to-back; rest only after the round.",
@@ -277,6 +263,20 @@
               ]
             }
           ]
+        },
+        {
+          "id": "w1-thu-flat",
+          "type": "run",
+          "title": "Flat Aerobic + Strides",
+          "emoji": "🏃",
+          "day": "thu",
+          "runType": "easy",
+          "time": 40,
+          "targets": {
+            "hrZone": "2",
+            "rpe": 4
+          },
+          "notes": "From home — flat canal paths / neighborhood. Easy Z2, finish with 6×20s relaxed strides."
         },
         {
           "id": "w1-fri-pull",
@@ -452,34 +452,20 @@
           "notes": "From home — flat canal paths / neighborhood. Conversational Z2."
         },
         {
-          "id": "w2-wed-flat",
-          "type": "run",
-          "title": "Flat Aerobic + Strides",
-          "emoji": "🏃",
-          "day": "wed",
-          "runType": "easy",
-          "time": 40,
-          "targets": {
-            "hrZone": "2",
-            "rpe": 4
-          },
-          "notes": "From home — flat canal paths / neighborhood. Easy Z2, finish with 6×20s relaxed strides."
-        },
-        {
-          "id": "w2-wed-pull",
+          "id": "w2-tue-pull",
           "type": "pullups",
           "title": "Pull-Ups",
           "emoji": "🧗",
-          "day": "wed",
+          "day": "tue",
           "useBuiltInProgression": true,
           "notes": "Grease-the-groove: crisp submax sets, stop short of failure."
         },
         {
-          "id": "w2-thu-upper",
+          "id": "w2-wed-upper",
           "type": "strength",
           "title": "Upper — Back Focus",
           "emoji": "💪",
-          "day": "thu",
+          "day": "wed",
           "duration": 40,
           "equipment": "Bar · Dumbbells · Bench · TRX",
           "notes": "Go hard — upper work doesn't cost the legs. Supersets (🔁) run back-to-back; rest only after the round.",
@@ -583,6 +569,20 @@
               ]
             }
           ]
+        },
+        {
+          "id": "w2-thu-flat",
+          "type": "run",
+          "title": "Flat Aerobic + Strides",
+          "emoji": "🏃",
+          "day": "thu",
+          "runType": "easy",
+          "time": 40,
+          "targets": {
+            "hrZone": "2",
+            "rpe": 4
+          },
+          "notes": "From home — flat canal paths / neighborhood. Easy Z2, finish with 6×20s relaxed strides."
         },
         {
           "id": "w2-fri-pull",
@@ -756,34 +756,20 @@
           "notes": "From home — flat canal paths / neighborhood. Conversational Z2."
         },
         {
-          "id": "w3-wed-flat",
-          "type": "run",
-          "title": "Flat Aerobic + Strides",
-          "emoji": "🏃",
-          "day": "wed",
-          "runType": "easy",
-          "time": 40,
-          "targets": {
-            "hrZone": "2",
-            "rpe": 4
-          },
-          "notes": "From home — flat canal paths / neighborhood. Easy Z2, finish with 6×20s relaxed strides."
-        },
-        {
-          "id": "w3-wed-pull",
+          "id": "w3-tue-pull",
           "type": "pullups",
           "title": "Pull-Ups",
           "emoji": "🧗",
-          "day": "wed",
+          "day": "tue",
           "useBuiltInProgression": true,
           "notes": "Grease-the-groove: crisp submax sets, stop short of failure."
         },
         {
-          "id": "w3-thu-upper",
+          "id": "w3-wed-upper",
           "type": "strength",
           "title": "Upper — Chest Focus",
           "emoji": "💪",
-          "day": "thu",
+          "day": "wed",
           "duration": 40,
           "equipment": "Bar · Dumbbells · Bench · TRX",
           "notes": "Go hard — upper work doesn't cost the legs. Supersets (🔁) run back-to-back; rest only after the round.",
@@ -895,6 +881,20 @@
               ]
             }
           ]
+        },
+        {
+          "id": "w3-thu-flat",
+          "type": "run",
+          "title": "Flat Aerobic + Strides",
+          "emoji": "🏃",
+          "day": "thu",
+          "runType": "easy",
+          "time": 40,
+          "targets": {
+            "hrZone": "2",
+            "rpe": 4
+          },
+          "notes": "From home — flat canal paths / neighborhood. Easy Z2, finish with 6×20s relaxed strides."
         },
         {
           "id": "w3-fri-pull",
@@ -1070,51 +1070,20 @@
           "notes": "From home — flat canal paths / neighborhood. Conversational Z2."
         },
         {
-          "id": "w4-wed-flat",
-          "type": "run",
-          "title": "Flat Tempo",
-          "emoji": "🏃",
-          "day": "wed",
-          "runType": "tempo",
-          "time": 50,
-          "targets": {
-            "hrZone": "3-4",
-            "rpe": 6
-          },
-          "segments": [
-            {
-              "label": "Warm-up",
-              "time": 12,
-              "intensity": "easy"
-            },
-            {
-              "label": "Tempo",
-              "time": 30,
-              "intensity": "comfortably hard / Z3–4"
-            },
-            {
-              "label": "Cool-down",
-              "time": 8,
-              "intensity": "easy"
-            }
-          ],
-          "notes": "From home — flat canal paths. Steady comfortably-hard, no hills. Aerobic-power work that replaces the old weekday vert (vert now lives on the weekend)."
-        },
-        {
-          "id": "w4-wed-pull",
+          "id": "w4-tue-pull",
           "type": "pullups",
           "title": "Pull-Ups",
           "emoji": "🧗",
-          "day": "wed",
+          "day": "tue",
           "useBuiltInProgression": true,
           "notes": "Grease-the-groove: crisp submax sets, stop short of failure."
         },
         {
-          "id": "w4-thu-upper",
+          "id": "w4-wed-upper",
           "type": "strength",
           "title": "Upper — Back Focus",
           "emoji": "💪",
-          "day": "thu",
+          "day": "wed",
           "duration": 40,
           "equipment": "Bar · Dumbbells · Bench · TRX",
           "notes": "Go hard — upper work doesn't cost the legs. Supersets (🔁) run back-to-back; rest only after the round.",
@@ -1218,6 +1187,37 @@
               ]
             }
           ]
+        },
+        {
+          "id": "w4-thu-flat",
+          "type": "run",
+          "title": "Flat Tempo",
+          "emoji": "🏃",
+          "day": "thu",
+          "runType": "tempo",
+          "time": 50,
+          "targets": {
+            "hrZone": "3-4",
+            "rpe": 6
+          },
+          "segments": [
+            {
+              "label": "Warm-up",
+              "time": 12,
+              "intensity": "easy"
+            },
+            {
+              "label": "Tempo",
+              "time": 30,
+              "intensity": "comfortably hard / Z3–4"
+            },
+            {
+              "label": "Cool-down",
+              "time": 8,
+              "intensity": "easy"
+            }
+          ],
+          "notes": "From home — flat canal paths. Steady comfortably-hard, no hills. Aerobic-power work that replaces the old weekday vert (vert now lives on the weekend)."
         },
         {
           "id": "w4-fri-pull",
@@ -1391,51 +1391,20 @@
           "notes": "From home — flat canal paths / neighborhood. Conversational Z2."
         },
         {
-          "id": "w5-wed-flat",
-          "type": "run",
-          "title": "Flat Tempo",
-          "emoji": "🏃",
-          "day": "wed",
-          "runType": "tempo",
-          "time": 50,
-          "targets": {
-            "hrZone": "3-4",
-            "rpe": 6
-          },
-          "segments": [
-            {
-              "label": "Warm-up",
-              "time": 12,
-              "intensity": "easy"
-            },
-            {
-              "label": "Tempo",
-              "time": 30,
-              "intensity": "comfortably hard / Z3–4"
-            },
-            {
-              "label": "Cool-down",
-              "time": 8,
-              "intensity": "easy"
-            }
-          ],
-          "notes": "From home — flat canal paths. Steady comfortably-hard, no hills. Aerobic-power work that replaces the old weekday vert (vert now lives on the weekend)."
-        },
-        {
-          "id": "w5-wed-pull",
+          "id": "w5-tue-pull",
           "type": "pullups",
           "title": "Pull-Ups",
           "emoji": "🧗",
-          "day": "wed",
+          "day": "tue",
           "useBuiltInProgression": true,
           "notes": "Grease-the-groove: crisp submax sets, stop short of failure."
         },
         {
-          "id": "w5-thu-upper",
+          "id": "w5-wed-upper",
           "type": "strength",
           "title": "Upper — Chest Focus",
           "emoji": "💪",
-          "day": "thu",
+          "day": "wed",
           "duration": 40,
           "equipment": "Bar · Dumbbells · Bench · TRX",
           "notes": "Go hard — upper work doesn't cost the legs. Supersets (🔁) run back-to-back; rest only after the round.",
@@ -1549,6 +1518,37 @@
           ]
         },
         {
+          "id": "w5-thu-flat",
+          "type": "run",
+          "title": "Flat Tempo",
+          "emoji": "🏃",
+          "day": "thu",
+          "runType": "tempo",
+          "time": 50,
+          "targets": {
+            "hrZone": "3-4",
+            "rpe": 6
+          },
+          "segments": [
+            {
+              "label": "Warm-up",
+              "time": 12,
+              "intensity": "easy"
+            },
+            {
+              "label": "Tempo",
+              "time": 30,
+              "intensity": "comfortably hard / Z3–4"
+            },
+            {
+              "label": "Cool-down",
+              "time": 8,
+              "intensity": "easy"
+            }
+          ],
+          "notes": "From home — flat canal paths. Steady comfortably-hard, no hills. Aerobic-power work that replaces the old weekday vert (vert now lives on the weekend)."
+        },
+        {
           "id": "w5-fri-pull",
           "type": "pullups",
           "title": "Pull-Ups",
@@ -1600,15 +1600,6 @@
         "pullups": 1
       },
       "sessions": [
-        {
-          "id": "w6-tue-pull",
-          "type": "pullups",
-          "title": "Pull-Ups",
-          "emoji": "🧗",
-          "day": "tue",
-          "useBuiltInProgression": true,
-          "notes": "Grease-the-groove: crisp submax sets, stop short of failure."
-        },
         {
           "id": "w6-mon-lower",
           "type": "strength",
@@ -1708,11 +1699,11 @@
           ]
         },
         {
-          "id": "w6-wed-easy",
+          "id": "w6-tue-easy",
           "type": "run",
           "title": "Easy Run",
           "emoji": "🏃",
-          "day": "wed",
+          "day": "tue",
           "runType": "easy",
           "time": 35,
           "targets": {
@@ -1722,11 +1713,20 @@
           "notes": "Explore NC on foot. Easy Z2."
         },
         {
-          "id": "w6-thu-upper",
+          "id": "w6-tue-pull",
+          "type": "pullups",
+          "title": "Pull-Ups",
+          "emoji": "🧗",
+          "day": "tue",
+          "useBuiltInProgression": true,
+          "notes": "Grease-the-groove: crisp submax sets, stop short of failure."
+        },
+        {
+          "id": "w6-wed-upper",
           "type": "strength",
           "title": "Upper (Travel)",
           "emoji": "💪",
-          "day": "thu",
+          "day": "wed",
           "duration": 40,
           "equipment": "Bar / Bodyweight / TRX",
           "notes": "Go hard — upper work doesn't cost the legs. Supersets (🔁) run back-to-back; rest only after the round.",
@@ -1830,6 +1830,14 @@
               ]
             }
           ]
+        },
+        {
+          "id": "w6-thu-rest",
+          "type": "rest",
+          "title": "Rest",
+          "emoji": "😴",
+          "day": "thu",
+          "notes": "Full rest. Light mobility / stretch optional."
         },
         {
           "id": "w6-fri-rest",
@@ -1995,51 +2003,20 @@
           "notes": "From home — flat canal paths / neighborhood. Conversational Z2."
         },
         {
-          "id": "w7-wed-flat",
-          "type": "run",
-          "title": "Flat Tempo",
-          "emoji": "🏃",
-          "day": "wed",
-          "runType": "tempo",
-          "time": 50,
-          "targets": {
-            "hrZone": "3-4",
-            "rpe": 6
-          },
-          "segments": [
-            {
-              "label": "Warm-up",
-              "time": 12,
-              "intensity": "easy"
-            },
-            {
-              "label": "Tempo",
-              "time": 30,
-              "intensity": "comfortably hard / Z3–4"
-            },
-            {
-              "label": "Cool-down",
-              "time": 8,
-              "intensity": "easy"
-            }
-          ],
-          "notes": "From home — flat canal paths. Steady comfortably-hard, no hills. Aerobic-power work that replaces the old weekday vert (vert now lives on the weekend)."
-        },
-        {
-          "id": "w7-wed-pull",
+          "id": "w7-tue-pull",
           "type": "pullups",
           "title": "Pull-Ups",
           "emoji": "🧗",
-          "day": "wed",
+          "day": "tue",
           "useBuiltInProgression": true,
           "notes": "Grease-the-groove: crisp submax sets, stop short of failure."
         },
         {
-          "id": "w7-thu-upper",
+          "id": "w7-wed-upper",
           "type": "strength",
           "title": "Upper — Chest Focus",
           "emoji": "💪",
-          "day": "thu",
+          "day": "wed",
           "duration": 40,
           "equipment": "Bar · Dumbbells · Bench · TRX",
           "notes": "Go hard — upper work doesn't cost the legs. Supersets (🔁) run back-to-back; rest only after the round.",
@@ -2151,6 +2128,37 @@
               ]
             }
           ]
+        },
+        {
+          "id": "w7-thu-flat",
+          "type": "run",
+          "title": "Flat Tempo",
+          "emoji": "🏃",
+          "day": "thu",
+          "runType": "tempo",
+          "time": 50,
+          "targets": {
+            "hrZone": "3-4",
+            "rpe": 6
+          },
+          "segments": [
+            {
+              "label": "Warm-up",
+              "time": 12,
+              "intensity": "easy"
+            },
+            {
+              "label": "Tempo",
+              "time": 30,
+              "intensity": "comfortably hard / Z3–4"
+            },
+            {
+              "label": "Cool-down",
+              "time": 8,
+              "intensity": "easy"
+            }
+          ],
+          "notes": "From home — flat canal paths. Steady comfortably-hard, no hills. Aerobic-power work that replaces the old weekday vert (vert now lives on the weekend)."
         },
         {
           "id": "w7-fri-pull",
@@ -2326,51 +2334,20 @@
           "notes": "From home — flat canal paths / neighborhood. Conversational Z2."
         },
         {
-          "id": "w8-wed-flat",
-          "type": "run",
-          "title": "Flat Tempo",
-          "emoji": "🏃",
-          "day": "wed",
-          "runType": "tempo",
-          "time": 50,
-          "targets": {
-            "hrZone": "3-4",
-            "rpe": 6
-          },
-          "segments": [
-            {
-              "label": "Warm-up",
-              "time": 12,
-              "intensity": "easy"
-            },
-            {
-              "label": "Tempo",
-              "time": 30,
-              "intensity": "comfortably hard / Z3–4"
-            },
-            {
-              "label": "Cool-down",
-              "time": 8,
-              "intensity": "easy"
-            }
-          ],
-          "notes": "From home — flat canal paths. Steady comfortably-hard, no hills. Aerobic-power work that replaces the old weekday vert (vert now lives on the weekend)."
-        },
-        {
-          "id": "w8-wed-pull",
+          "id": "w8-tue-pull",
           "type": "pullups",
           "title": "Pull-Ups",
           "emoji": "🧗",
-          "day": "wed",
+          "day": "tue",
           "useBuiltInProgression": true,
           "notes": "Grease-the-groove: crisp submax sets, stop short of failure."
         },
         {
-          "id": "w8-thu-upper",
+          "id": "w8-wed-upper",
           "type": "strength",
           "title": "Upper — Back Focus",
           "emoji": "💪",
-          "day": "thu",
+          "day": "wed",
           "duration": 40,
           "equipment": "Bar · Dumbbells · Bench · TRX",
           "notes": "Go hard — upper work doesn't cost the legs. Supersets (🔁) run back-to-back; rest only after the round.",
@@ -2474,6 +2451,37 @@
               ]
             }
           ]
+        },
+        {
+          "id": "w8-thu-flat",
+          "type": "run",
+          "title": "Flat Tempo",
+          "emoji": "🏃",
+          "day": "thu",
+          "runType": "tempo",
+          "time": 50,
+          "targets": {
+            "hrZone": "3-4",
+            "rpe": 6
+          },
+          "segments": [
+            {
+              "label": "Warm-up",
+              "time": 12,
+              "intensity": "easy"
+            },
+            {
+              "label": "Tempo",
+              "time": 30,
+              "intensity": "comfortably hard / Z3–4"
+            },
+            {
+              "label": "Cool-down",
+              "time": 8,
+              "intensity": "easy"
+            }
+          ],
+          "notes": "From home — flat canal paths. Steady comfortably-hard, no hills. Aerobic-power work that replaces the old weekday vert (vert now lives on the weekend)."
         },
         {
           "id": "w8-fri-pull",
@@ -2647,51 +2655,20 @@
           "notes": "From home — flat canal paths / neighborhood. Conversational Z2."
         },
         {
-          "id": "w9-wed-flat",
-          "type": "run",
-          "title": "Flat Tempo",
-          "emoji": "🏃",
-          "day": "wed",
-          "runType": "tempo",
-          "time": 50,
-          "targets": {
-            "hrZone": "3-4",
-            "rpe": 6
-          },
-          "segments": [
-            {
-              "label": "Warm-up",
-              "time": 12,
-              "intensity": "easy"
-            },
-            {
-              "label": "Tempo",
-              "time": 30,
-              "intensity": "comfortably hard / Z3–4"
-            },
-            {
-              "label": "Cool-down",
-              "time": 8,
-              "intensity": "easy"
-            }
-          ],
-          "notes": "From home — flat canal paths. Steady comfortably-hard, no hills. Aerobic-power work that replaces the old weekday vert (vert now lives on the weekend)."
-        },
-        {
-          "id": "w9-wed-pull",
+          "id": "w9-tue-pull",
           "type": "pullups",
           "title": "Pull-Ups",
           "emoji": "🧗",
-          "day": "wed",
+          "day": "tue",
           "useBuiltInProgression": true,
           "notes": "Grease-the-groove: crisp submax sets, stop short of failure."
         },
         {
-          "id": "w9-thu-upper",
+          "id": "w9-wed-upper",
           "type": "strength",
           "title": "Upper — Chest Focus",
           "emoji": "💪",
-          "day": "thu",
+          "day": "wed",
           "duration": 40,
           "equipment": "Bar · Dumbbells · Bench · TRX",
           "notes": "Go hard — upper work doesn't cost the legs. Supersets (🔁) run back-to-back; rest only after the round.",
@@ -2803,6 +2780,37 @@
               ]
             }
           ]
+        },
+        {
+          "id": "w9-thu-flat",
+          "type": "run",
+          "title": "Flat Tempo",
+          "emoji": "🏃",
+          "day": "thu",
+          "runType": "tempo",
+          "time": 50,
+          "targets": {
+            "hrZone": "3-4",
+            "rpe": 6
+          },
+          "segments": [
+            {
+              "label": "Warm-up",
+              "time": 12,
+              "intensity": "easy"
+            },
+            {
+              "label": "Tempo",
+              "time": 30,
+              "intensity": "comfortably hard / Z3–4"
+            },
+            {
+              "label": "Cool-down",
+              "time": 8,
+              "intensity": "easy"
+            }
+          ],
+          "notes": "From home — flat canal paths. Steady comfortably-hard, no hills. Aerobic-power work that replaces the old weekday vert (vert now lives on the weekend)."
         },
         {
           "id": "w9-fri-pull",
@@ -2978,51 +2986,20 @@
           "notes": "From home — flat canal paths / neighborhood. Conversational Z2."
         },
         {
-          "id": "w10-wed-flat",
-          "type": "run",
-          "title": "Flat Tempo",
-          "emoji": "🏃",
-          "day": "wed",
-          "runType": "tempo",
-          "time": 50,
-          "targets": {
-            "hrZone": "3-4",
-            "rpe": 6
-          },
-          "segments": [
-            {
-              "label": "Warm-up",
-              "time": 12,
-              "intensity": "easy"
-            },
-            {
-              "label": "Tempo",
-              "time": 30,
-              "intensity": "comfortably hard / Z3–4"
-            },
-            {
-              "label": "Cool-down",
-              "time": 8,
-              "intensity": "easy"
-            }
-          ],
-          "notes": "From home — flat canal paths. Steady comfortably-hard, no hills. Aerobic-power work that replaces the old weekday vert (vert now lives on the weekend)."
-        },
-        {
-          "id": "w10-wed-pull",
+          "id": "w10-tue-pull",
           "type": "pullups",
           "title": "Pull-Ups",
           "emoji": "🧗",
-          "day": "wed",
+          "day": "tue",
           "useBuiltInProgression": true,
           "notes": "Grease-the-groove: crisp submax sets, stop short of failure."
         },
         {
-          "id": "w10-thu-upper",
+          "id": "w10-wed-upper",
           "type": "strength",
           "title": "Upper — Back Focus",
           "emoji": "💪",
-          "day": "thu",
+          "day": "wed",
           "duration": 40,
           "equipment": "Bar · Dumbbells · Bench · TRX",
           "notes": "Go hard — upper work doesn't cost the legs. Supersets (🔁) run back-to-back; rest only after the round.",
@@ -3126,6 +3103,37 @@
               ]
             }
           ]
+        },
+        {
+          "id": "w10-thu-flat",
+          "type": "run",
+          "title": "Flat Tempo",
+          "emoji": "🏃",
+          "day": "thu",
+          "runType": "tempo",
+          "time": 50,
+          "targets": {
+            "hrZone": "3-4",
+            "rpe": 6
+          },
+          "segments": [
+            {
+              "label": "Warm-up",
+              "time": 12,
+              "intensity": "easy"
+            },
+            {
+              "label": "Tempo",
+              "time": 30,
+              "intensity": "comfortably hard / Z3–4"
+            },
+            {
+              "label": "Cool-down",
+              "time": 8,
+              "intensity": "easy"
+            }
+          ],
+          "notes": "From home — flat canal paths. Steady comfortably-hard, no hills. Aerobic-power work that replaces the old weekday vert (vert now lives on the weekend)."
         },
         {
           "id": "w10-fri-pull",
@@ -3299,51 +3307,20 @@
           "notes": "From home — flat canal paths / neighborhood. Conversational Z2."
         },
         {
-          "id": "w11-wed-flat",
-          "type": "run",
-          "title": "Flat Tempo",
-          "emoji": "🏃",
-          "day": "wed",
-          "runType": "tempo",
-          "time": 50,
-          "targets": {
-            "hrZone": "3-4",
-            "rpe": 6
-          },
-          "segments": [
-            {
-              "label": "Warm-up",
-              "time": 12,
-              "intensity": "easy"
-            },
-            {
-              "label": "Tempo",
-              "time": 30,
-              "intensity": "comfortably hard / Z3–4"
-            },
-            {
-              "label": "Cool-down",
-              "time": 8,
-              "intensity": "easy"
-            }
-          ],
-          "notes": "From home — flat canal paths. Steady comfortably-hard, no hills. Aerobic-power work that replaces the old weekday vert (vert now lives on the weekend)."
-        },
-        {
-          "id": "w11-wed-pull",
+          "id": "w11-tue-pull",
           "type": "pullups",
           "title": "Pull-Ups",
           "emoji": "🧗",
-          "day": "wed",
+          "day": "tue",
           "useBuiltInProgression": true,
           "notes": "Grease-the-groove: crisp submax sets, stop short of failure."
         },
         {
-          "id": "w11-thu-upper",
+          "id": "w11-wed-upper",
           "type": "strength",
           "title": "Upper — Chest Focus",
           "emoji": "💪",
-          "day": "thu",
+          "day": "wed",
           "duration": 40,
           "equipment": "Bar · Dumbbells · Bench · TRX",
           "notes": "Go hard — upper work doesn't cost the legs. Supersets (🔁) run back-to-back; rest only after the round.",
@@ -3455,6 +3432,37 @@
               ]
             }
           ]
+        },
+        {
+          "id": "w11-thu-flat",
+          "type": "run",
+          "title": "Flat Tempo",
+          "emoji": "🏃",
+          "day": "thu",
+          "runType": "tempo",
+          "time": 50,
+          "targets": {
+            "hrZone": "3-4",
+            "rpe": 6
+          },
+          "segments": [
+            {
+              "label": "Warm-up",
+              "time": 12,
+              "intensity": "easy"
+            },
+            {
+              "label": "Tempo",
+              "time": 30,
+              "intensity": "comfortably hard / Z3–4"
+            },
+            {
+              "label": "Cool-down",
+              "time": 8,
+              "intensity": "easy"
+            }
+          ],
+          "notes": "From home — flat canal paths. Steady comfortably-hard, no hills. Aerobic-power work that replaces the old weekday vert (vert now lives on the weekend)."
         },
         {
           "id": "w11-fri-pull",
@@ -3630,51 +3638,20 @@
           "notes": "From home — flat canal paths / neighborhood. Conversational Z2."
         },
         {
-          "id": "w12-wed-flat",
-          "type": "run",
-          "title": "Flat Tempo",
-          "emoji": "🏃",
-          "day": "wed",
-          "runType": "tempo",
-          "time": 50,
-          "targets": {
-            "hrZone": "3-4",
-            "rpe": 6
-          },
-          "segments": [
-            {
-              "label": "Warm-up",
-              "time": 12,
-              "intensity": "easy"
-            },
-            {
-              "label": "Tempo",
-              "time": 30,
-              "intensity": "comfortably hard / Z3–4"
-            },
-            {
-              "label": "Cool-down",
-              "time": 8,
-              "intensity": "easy"
-            }
-          ],
-          "notes": "From home — flat canal paths. Steady comfortably-hard, no hills. Aerobic-power work that replaces the old weekday vert (vert now lives on the weekend)."
-        },
-        {
-          "id": "w12-wed-pull",
+          "id": "w12-tue-pull",
           "type": "pullups",
           "title": "Pull-Ups",
           "emoji": "🧗",
-          "day": "wed",
+          "day": "tue",
           "useBuiltInProgression": true,
           "notes": "Grease-the-groove: crisp submax sets, stop short of failure."
         },
         {
-          "id": "w12-thu-upper",
+          "id": "w12-wed-upper",
           "type": "strength",
           "title": "Upper — Back Focus",
           "emoji": "💪",
-          "day": "thu",
+          "day": "wed",
           "duration": 40,
           "equipment": "Bar · Dumbbells · Bench · TRX",
           "notes": "Go hard — upper work doesn't cost the legs. Supersets (🔁) run back-to-back; rest only after the round.",
@@ -3778,6 +3755,37 @@
               ]
             }
           ]
+        },
+        {
+          "id": "w12-thu-flat",
+          "type": "run",
+          "title": "Flat Tempo",
+          "emoji": "🏃",
+          "day": "thu",
+          "runType": "tempo",
+          "time": 50,
+          "targets": {
+            "hrZone": "3-4",
+            "rpe": 6
+          },
+          "segments": [
+            {
+              "label": "Warm-up",
+              "time": 12,
+              "intensity": "easy"
+            },
+            {
+              "label": "Tempo",
+              "time": 30,
+              "intensity": "comfortably hard / Z3–4"
+            },
+            {
+              "label": "Cool-down",
+              "time": 8,
+              "intensity": "easy"
+            }
+          ],
+          "notes": "From home — flat canal paths. Steady comfortably-hard, no hills. Aerobic-power work that replaces the old weekday vert (vert now lives on the weekend)."
         },
         {
           "id": "w12-fri-pull",
@@ -3951,51 +3959,20 @@
           "notes": "From home — flat canal paths / neighborhood. Conversational Z2."
         },
         {
-          "id": "w13-wed-flat",
-          "type": "run",
-          "title": "Flat Tempo",
-          "emoji": "🏃",
-          "day": "wed",
-          "runType": "tempo",
-          "time": 50,
-          "targets": {
-            "hrZone": "3-4",
-            "rpe": 6
-          },
-          "segments": [
-            {
-              "label": "Warm-up",
-              "time": 12,
-              "intensity": "easy"
-            },
-            {
-              "label": "Tempo",
-              "time": 30,
-              "intensity": "comfortably hard / Z3–4"
-            },
-            {
-              "label": "Cool-down",
-              "time": 8,
-              "intensity": "easy"
-            }
-          ],
-          "notes": "From home — flat canal paths. Steady comfortably-hard, no hills. Aerobic-power work that replaces the old weekday vert (vert now lives on the weekend)."
-        },
-        {
-          "id": "w13-wed-pull",
+          "id": "w13-tue-pull",
           "type": "pullups",
           "title": "Pull-Ups",
           "emoji": "🧗",
-          "day": "wed",
+          "day": "tue",
           "useBuiltInProgression": true,
           "notes": "Grease-the-groove: crisp submax sets, stop short of failure."
         },
         {
-          "id": "w13-thu-upper",
+          "id": "w13-wed-upper",
           "type": "strength",
           "title": "Upper — Chest Focus",
           "emoji": "💪",
-          "day": "thu",
+          "day": "wed",
           "duration": 40,
           "equipment": "Bar · Dumbbells · Bench · TRX",
           "notes": "Go hard — upper work doesn't cost the legs. Supersets (🔁) run back-to-back; rest only after the round.",
@@ -4107,6 +4084,37 @@
               ]
             }
           ]
+        },
+        {
+          "id": "w13-thu-flat",
+          "type": "run",
+          "title": "Flat Tempo",
+          "emoji": "🏃",
+          "day": "thu",
+          "runType": "tempo",
+          "time": 50,
+          "targets": {
+            "hrZone": "3-4",
+            "rpe": 6
+          },
+          "segments": [
+            {
+              "label": "Warm-up",
+              "time": 12,
+              "intensity": "easy"
+            },
+            {
+              "label": "Tempo",
+              "time": 30,
+              "intensity": "comfortably hard / Z3–4"
+            },
+            {
+              "label": "Cool-down",
+              "time": 8,
+              "intensity": "easy"
+            }
+          ],
+          "notes": "From home — flat canal paths. Steady comfortably-hard, no hills. Aerobic-power work that replaces the old weekday vert (vert now lives on the weekend)."
         },
         {
           "id": "w13-fri-pull",
@@ -4282,51 +4290,20 @@
           "notes": "From home — flat canal paths / neighborhood. Conversational Z2."
         },
         {
-          "id": "w14-wed-flat",
-          "type": "run",
-          "title": "Flat Tempo",
-          "emoji": "🏃",
-          "day": "wed",
-          "runType": "tempo",
-          "time": 50,
-          "targets": {
-            "hrZone": "3-4",
-            "rpe": 6
-          },
-          "segments": [
-            {
-              "label": "Warm-up",
-              "time": 12,
-              "intensity": "easy"
-            },
-            {
-              "label": "Tempo",
-              "time": 30,
-              "intensity": "comfortably hard / Z3–4"
-            },
-            {
-              "label": "Cool-down",
-              "time": 8,
-              "intensity": "easy"
-            }
-          ],
-          "notes": "From home — flat canal paths. Steady comfortably-hard, no hills. Aerobic-power work that replaces the old weekday vert (vert now lives on the weekend)."
-        },
-        {
-          "id": "w14-wed-pull",
+          "id": "w14-tue-pull",
           "type": "pullups",
           "title": "Pull-Ups",
           "emoji": "🧗",
-          "day": "wed",
+          "day": "tue",
           "useBuiltInProgression": true,
           "notes": "Grease-the-groove: crisp submax sets, stop short of failure."
         },
         {
-          "id": "w14-thu-upper",
+          "id": "w14-wed-upper",
           "type": "strength",
           "title": "Upper — Back Focus",
           "emoji": "💪",
-          "day": "thu",
+          "day": "wed",
           "duration": 40,
           "equipment": "Bar · Dumbbells · Bench · TRX",
           "notes": "Go hard — upper work doesn't cost the legs. Supersets (🔁) run back-to-back; rest only after the round.",
@@ -4430,6 +4407,37 @@
               ]
             }
           ]
+        },
+        {
+          "id": "w14-thu-flat",
+          "type": "run",
+          "title": "Flat Tempo",
+          "emoji": "🏃",
+          "day": "thu",
+          "runType": "tempo",
+          "time": 50,
+          "targets": {
+            "hrZone": "3-4",
+            "rpe": 6
+          },
+          "segments": [
+            {
+              "label": "Warm-up",
+              "time": 12,
+              "intensity": "easy"
+            },
+            {
+              "label": "Tempo",
+              "time": 30,
+              "intensity": "comfortably hard / Z3–4"
+            },
+            {
+              "label": "Cool-down",
+              "time": 8,
+              "intensity": "easy"
+            }
+          ],
+          "notes": "From home — flat canal paths. Steady comfortably-hard, no hills. Aerobic-power work that replaces the old weekday vert (vert now lives on the weekend)."
         },
         {
           "id": "w14-fri-pull",
@@ -4603,51 +4611,20 @@
           "notes": "From home — flat canal paths / neighborhood. Conversational Z2."
         },
         {
-          "id": "w15-wed-flat",
-          "type": "run",
-          "title": "Flat Tempo",
-          "emoji": "🏃",
-          "day": "wed",
-          "runType": "tempo",
-          "time": 50,
-          "targets": {
-            "hrZone": "3-4",
-            "rpe": 6
-          },
-          "segments": [
-            {
-              "label": "Warm-up",
-              "time": 12,
-              "intensity": "easy"
-            },
-            {
-              "label": "Tempo",
-              "time": 30,
-              "intensity": "comfortably hard / Z3–4"
-            },
-            {
-              "label": "Cool-down",
-              "time": 8,
-              "intensity": "easy"
-            }
-          ],
-          "notes": "From home — flat canal paths. Steady comfortably-hard, no hills. Aerobic-power work that replaces the old weekday vert (vert now lives on the weekend)."
-        },
-        {
-          "id": "w15-wed-pull",
+          "id": "w15-tue-pull",
           "type": "pullups",
           "title": "Pull-Ups",
           "emoji": "🧗",
-          "day": "wed",
+          "day": "tue",
           "useBuiltInProgression": true,
           "notes": "Grease-the-groove: crisp submax sets, stop short of failure."
         },
         {
-          "id": "w15-thu-upper",
+          "id": "w15-wed-upper",
           "type": "strength",
           "title": "Upper — Chest Focus",
           "emoji": "💪",
-          "day": "thu",
+          "day": "wed",
           "duration": 40,
           "equipment": "Bar · Dumbbells · Bench · TRX",
           "notes": "Go hard — upper work doesn't cost the legs. Supersets (🔁) run back-to-back; rest only after the round.",
@@ -4759,6 +4736,37 @@
               ]
             }
           ]
+        },
+        {
+          "id": "w15-thu-flat",
+          "type": "run",
+          "title": "Flat Tempo",
+          "emoji": "🏃",
+          "day": "thu",
+          "runType": "tempo",
+          "time": 50,
+          "targets": {
+            "hrZone": "3-4",
+            "rpe": 6
+          },
+          "segments": [
+            {
+              "label": "Warm-up",
+              "time": 12,
+              "intensity": "easy"
+            },
+            {
+              "label": "Tempo",
+              "time": 30,
+              "intensity": "comfortably hard / Z3–4"
+            },
+            {
+              "label": "Cool-down",
+              "time": 8,
+              "intensity": "easy"
+            }
+          ],
+          "notes": "From home — flat canal paths. Steady comfortably-hard, no hills. Aerobic-power work that replaces the old weekday vert (vert now lives on the weekend)."
         },
         {
           "id": "w15-fri-pull",
@@ -4934,34 +4942,20 @@
           "notes": "From home — flat canal paths / neighborhood. Conversational Z2."
         },
         {
-          "id": "w16-wed-flat",
-          "type": "run",
-          "title": "Flat Aerobic + Strides",
-          "emoji": "🏃",
-          "day": "wed",
-          "runType": "easy",
-          "time": 50,
-          "targets": {
-            "hrZone": "2",
-            "rpe": 4
-          },
-          "notes": "From home — flat canal paths / neighborhood. Easy Z2, finish with 6×20s relaxed strides."
-        },
-        {
-          "id": "w16-wed-pull",
+          "id": "w16-tue-pull",
           "type": "pullups",
           "title": "Pull-Ups",
           "emoji": "🧗",
-          "day": "wed",
+          "day": "tue",
           "useBuiltInProgression": true,
           "notes": "Grease-the-groove: crisp submax sets, stop short of failure."
         },
         {
-          "id": "w16-thu-upper",
+          "id": "w16-wed-upper",
           "type": "strength",
           "title": "Upper — Back Focus",
           "emoji": "💪",
-          "day": "thu",
+          "day": "wed",
           "duration": 40,
           "equipment": "Bar · Dumbbells · Bench · TRX",
           "notes": "Go hard — upper work doesn't cost the legs. Supersets (🔁) run back-to-back; rest only after the round.",
@@ -5065,6 +5059,20 @@
               ]
             }
           ]
+        },
+        {
+          "id": "w16-thu-flat",
+          "type": "run",
+          "title": "Flat Aerobic + Strides",
+          "emoji": "🏃",
+          "day": "thu",
+          "runType": "easy",
+          "time": 50,
+          "targets": {
+            "hrZone": "2",
+            "rpe": 4
+          },
+          "notes": "From home — flat canal paths / neighborhood. Easy Z2, finish with 6×20s relaxed strides."
         },
         {
           "id": "w16-fri-pull",
@@ -5231,34 +5239,20 @@
           "notes": "From home — flat canal paths / neighborhood. Conversational Z2."
         },
         {
-          "id": "w17-wed-flat",
-          "type": "run",
-          "title": "Flat Aerobic + Strides",
-          "emoji": "🏃",
-          "day": "wed",
-          "runType": "easy",
-          "time": 35,
-          "targets": {
-            "hrZone": "2",
-            "rpe": 4
-          },
-          "notes": "From home — flat canal paths / neighborhood. Easy Z2, finish with 6×20s relaxed strides."
-        },
-        {
-          "id": "w17-wed-pull",
+          "id": "w17-tue-pull",
           "type": "pullups",
           "title": "Pull-Ups",
           "emoji": "🧗",
-          "day": "wed",
+          "day": "tue",
           "useBuiltInProgression": true,
           "notes": "Grease-the-groove: crisp submax sets, stop short of failure."
         },
         {
-          "id": "w17-thu-upper",
+          "id": "w17-wed-upper",
           "type": "strength",
           "title": "Upper — Chest Focus",
           "emoji": "💪",
-          "day": "thu",
+          "day": "wed",
           "duration": 40,
           "equipment": "Bar · Dumbbells · Bench · TRX",
           "notes": "Go hard — upper work doesn't cost the legs. Supersets (🔁) run back-to-back; rest only after the round.",
@@ -5370,6 +5364,20 @@
               ]
             }
           ]
+        },
+        {
+          "id": "w17-thu-flat",
+          "type": "run",
+          "title": "Flat Aerobic + Strides",
+          "emoji": "🏃",
+          "day": "thu",
+          "runType": "easy",
+          "time": 35,
+          "targets": {
+            "hrZone": "2",
+            "rpe": 4
+          },
+          "notes": "From home — flat canal paths / neighborhood. Easy Z2, finish with 6×20s relaxed strides."
         },
         {
           "id": "w17-fri-pull",
@@ -5538,51 +5546,20 @@
           "notes": "From home — flat canal paths / neighborhood. Conversational Z2."
         },
         {
-          "id": "w18-wed-flat",
-          "type": "run",
-          "title": "Flat Tempo",
-          "emoji": "🏃",
-          "day": "wed",
-          "runType": "tempo",
-          "time": 50,
-          "targets": {
-            "hrZone": "3-4",
-            "rpe": 6
-          },
-          "segments": [
-            {
-              "label": "Warm-up",
-              "time": 12,
-              "intensity": "easy"
-            },
-            {
-              "label": "Tempo",
-              "time": 30,
-              "intensity": "comfortably hard / Z3–4"
-            },
-            {
-              "label": "Cool-down",
-              "time": 8,
-              "intensity": "easy"
-            }
-          ],
-          "notes": "From home — flat canal paths. Steady comfortably-hard, no hills. Aerobic-power work that replaces the old weekday vert (vert now lives on the weekend)."
-        },
-        {
-          "id": "w18-wed-pull",
+          "id": "w18-tue-pull",
           "type": "pullups",
           "title": "Pull-Ups",
           "emoji": "🧗",
-          "day": "wed",
+          "day": "tue",
           "useBuiltInProgression": true,
           "notes": "Grease-the-groove: crisp submax sets, stop short of failure."
         },
         {
-          "id": "w18-thu-upper",
+          "id": "w18-wed-upper",
           "type": "strength",
           "title": "Upper — Back Focus",
           "emoji": "💪",
-          "day": "thu",
+          "day": "wed",
           "duration": 40,
           "equipment": "Bar · Dumbbells · Bench · TRX",
           "notes": "Go hard — upper work doesn't cost the legs. Supersets (🔁) run back-to-back; rest only after the round.",
@@ -5686,6 +5663,37 @@
               ]
             }
           ]
+        },
+        {
+          "id": "w18-thu-flat",
+          "type": "run",
+          "title": "Flat Tempo",
+          "emoji": "🏃",
+          "day": "thu",
+          "runType": "tempo",
+          "time": 50,
+          "targets": {
+            "hrZone": "3-4",
+            "rpe": 6
+          },
+          "segments": [
+            {
+              "label": "Warm-up",
+              "time": 12,
+              "intensity": "easy"
+            },
+            {
+              "label": "Tempo",
+              "time": 30,
+              "intensity": "comfortably hard / Z3–4"
+            },
+            {
+              "label": "Cool-down",
+              "time": 8,
+              "intensity": "easy"
+            }
+          ],
+          "notes": "From home — flat canal paths. Steady comfortably-hard, no hills. Aerobic-power work that replaces the old weekday vert (vert now lives on the weekend)."
         },
         {
           "id": "w18-fri-pull",
@@ -5859,34 +5867,20 @@
           "notes": "From home — flat canal paths / neighborhood. Conversational Z2."
         },
         {
-          "id": "w19-wed-flat",
-          "type": "run",
-          "title": "Flat Aerobic + Strides",
-          "emoji": "🏃",
-          "day": "wed",
-          "runType": "easy",
-          "time": 35,
-          "targets": {
-            "hrZone": "2",
-            "rpe": 4
-          },
-          "notes": "From home — flat canal paths / neighborhood. Easy Z2, finish with 6×20s relaxed strides."
-        },
-        {
-          "id": "w19-wed-pull",
+          "id": "w19-tue-pull",
           "type": "pullups",
           "title": "Pull-Ups",
           "emoji": "🧗",
-          "day": "wed",
+          "day": "tue",
           "useBuiltInProgression": true,
           "notes": "Grease-the-groove: crisp submax sets, stop short of failure."
         },
         {
-          "id": "w19-thu-upper",
+          "id": "w19-wed-upper",
           "type": "strength",
           "title": "Upper — Chest Focus",
           "emoji": "💪",
-          "day": "thu",
+          "day": "wed",
           "duration": 40,
           "equipment": "Bar · Dumbbells · Bench · TRX",
           "notes": "Go hard — upper work doesn't cost the legs. Supersets (🔁) run back-to-back; rest only after the round.",
@@ -5998,6 +5992,20 @@
               ]
             }
           ]
+        },
+        {
+          "id": "w19-thu-flat",
+          "type": "run",
+          "title": "Flat Aerobic + Strides",
+          "emoji": "🏃",
+          "day": "thu",
+          "runType": "easy",
+          "time": 35,
+          "targets": {
+            "hrZone": "2",
+            "rpe": 4
+          },
+          "notes": "From home — flat canal paths / neighborhood. Easy Z2, finish with 6×20s relaxed strides."
         },
         {
           "id": "w19-fri-pull",
@@ -6166,34 +6174,20 @@
           "notes": "From home — flat canal paths / neighborhood. Conversational Z2."
         },
         {
-          "id": "w20-wed-flat",
-          "type": "run",
-          "title": "Flat Aerobic + Strides",
-          "emoji": "🏃",
-          "day": "wed",
-          "runType": "easy",
-          "time": 35,
-          "targets": {
-            "hrZone": "2",
-            "rpe": 4
-          },
-          "notes": "From home — flat canal paths / neighborhood. Easy Z2, finish with 6×20s relaxed strides."
-        },
-        {
-          "id": "w20-wed-pull",
+          "id": "w20-tue-pull",
           "type": "pullups",
           "title": "Pull-Ups",
           "emoji": "🧗",
-          "day": "wed",
+          "day": "tue",
           "useBuiltInProgression": true,
           "notes": "Grease-the-groove: crisp submax sets, stop short of failure."
         },
         {
-          "id": "w20-thu-upper",
+          "id": "w20-wed-upper",
           "type": "strength",
           "title": "Upper — Back Focus",
           "emoji": "💪",
-          "day": "thu",
+          "day": "wed",
           "duration": 40,
           "equipment": "Bar · Dumbbells · Bench · TRX",
           "notes": "Go hard — upper work doesn't cost the legs. Supersets (🔁) run back-to-back; rest only after the round.",
@@ -6297,6 +6291,20 @@
               ]
             }
           ]
+        },
+        {
+          "id": "w20-thu-flat",
+          "type": "run",
+          "title": "Flat Aerobic + Strides",
+          "emoji": "🏃",
+          "day": "thu",
+          "runType": "easy",
+          "time": 35,
+          "targets": {
+            "hrZone": "2",
+            "rpe": 4
+          },
+          "notes": "From home — flat canal paths / neighborhood. Easy Z2, finish with 6×20s relaxed strides."
         },
         {
           "id": "w20-fri-pull",
