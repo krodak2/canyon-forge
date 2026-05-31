@@ -212,6 +212,7 @@
    - Run / Bike / Rest = info card; Run/Bike get a Mark Done toggle.
    - Home = Today's session(s) + Calendar. 2-a-day supported.
    ========================================================================= */
+const APP_VERSION='1.1';
 const REST = { core:15, standard:30, hard:45, group:60, skill:90, none:0 };
 const MONTHS=['January','February','March','April','May','June','July','August','September','October','November','December'];
 const DOW=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
@@ -495,6 +496,7 @@ function renderHome(){
       <div class="statcard"><div class="n">${totalWorkouts()}</div><div class="l">All time</div></div></div>
     ${targetsHTML}
     <button class="linkbtn" onclick="exportData()">⬇︎ Export my data (backup)</button>
+    <div style="text-align:center;color:#3a3a3a;font-size:10px;font-weight:700;margin-top:4px">Canyon Forge v${APP_VERSION}</div>
   </div>`;
   if(slideDir!==0){const dp=document.getElementById('daypane');if(dp)dp.classList.add(slideDir>0?'daypane-next':'daypane-prev');slideDir=0;}
 }
@@ -734,6 +736,7 @@ async function boot(){
   initSwipe();
 }
 boot();
+if('serviceWorker' in navigator){ window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{})); }
 </script>
 </body>
 </html>
