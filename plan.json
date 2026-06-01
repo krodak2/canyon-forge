@@ -24,7 +24,7 @@
           "title": "Lower — ME Circuit (WO #1)",
           "emoji": "🦵",
           "day": "mon",
-          "duration": 50,
+          "duration": 35,
           "groupRest": 60,
           "equipment": "Box · Bodyweight",
           "notes": "ME LEG PROGRESSION · WO #1 — Bodyweight. 6×10 each; finish all sets of an exercise before the next. Hold the tempos, don't rush. Rests: jumps 60s/set · Box Step-Ups & Lunges 30s/set · 60s between exercises.",
@@ -34,14 +34,43 @@
               "emoji": "🔥",
               "exercises": [
                 {
-                  "name": "Light Aerobic Warm-Up",
-                  "equipment": "Bike / Jog",
+                  "name": "High Knees",
+                  "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 780,
+                  "seconds": 40,
                   "working": false,
                   "logReps": false,
-                  "note": "10–15 min, build to Z3 effort the final 2 min."
+                  "note": "Quick feet, drive the knees to hip height."
+                },
+                {
+                  "name": "Jumping Jacks",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 40,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Butt Kicks",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Bodyweight Squats",
+                  "equipment": "Bodyweight",
+                  "movementType": "reps",
+                  "sets": 1,
+                  "reps": 15,
+                  "rest": 0,
+                  "working": false,
+                  "logReps": false,
+                  "note": "Full depth, controlled — grease the pattern."
                 },
                 {
                   "name": "Get-Ups",
@@ -49,7 +78,7 @@
                   "movementType": "reps",
                   "sets": 1,
                   "reps": 10,
-                  "rest": 30,
+                  "rest": 20,
                   "working": false,
                   "logReps": false,
                   "note": "Get up off the floor from lying down, any method."
@@ -60,7 +89,7 @@
                   "movementType": "reps",
                   "sets": 1,
                   "reps": 10,
-                  "rest": 30,
+                  "rest": 20,
                   "working": false,
                   "logReps": false
                 }
@@ -120,14 +149,34 @@
               "emoji": "🧊",
               "exercises": [
                 {
-                  "name": "Aerobic Cool-Down",
-                  "equipment": "Bike / Jog",
+                  "name": "Quad Stretch",
+                  "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 600,
+                  "seconds": 30,
+                  "perSide": true,
                   "working": false,
-                  "logReps": false,
-                  "note": "10 min easy."
+                  "logReps": false
+                },
+                {
+                  "name": "Standing Hamstring Stretch",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "perSide": true,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Calf Stretch",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "perSide": true,
+                  "working": false,
+                  "logReps": false
                 }
               ]
             }
@@ -365,7 +414,7 @@
           "title": "Lower — ME Circuit (WO #2)",
           "emoji": "🦵",
           "day": "mon",
-          "duration": 50,
+          "duration": 35,
           "groupRest": 60,
           "equipment": "Box · Bodyweight",
           "notes": "ME LEG PROGRESSION · WO #2 — Bodyweight. 6×10 each; finish all sets of an exercise before the next. Hold the tempos, don't rush. Rests: jumps 60s/set · Box Step-Ups & Lunges 30s/set · 60s between exercises.",
@@ -375,14 +424,43 @@
               "emoji": "🔥",
               "exercises": [
                 {
-                  "name": "Light Aerobic Warm-Up",
-                  "equipment": "Bike / Jog",
+                  "name": "High Knees",
+                  "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 780,
+                  "seconds": 40,
                   "working": false,
                   "logReps": false,
-                  "note": "10–15 min, build to Z3 effort the final 2 min."
+                  "note": "Quick feet, drive the knees to hip height."
+                },
+                {
+                  "name": "Jumping Jacks",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 40,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Butt Kicks",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Bodyweight Squats",
+                  "equipment": "Bodyweight",
+                  "movementType": "reps",
+                  "sets": 1,
+                  "reps": 15,
+                  "rest": 0,
+                  "working": false,
+                  "logReps": false,
+                  "note": "Full depth, controlled — grease the pattern."
                 },
                 {
                   "name": "Get-Ups",
@@ -390,7 +468,7 @@
                   "movementType": "reps",
                   "sets": 1,
                   "reps": 10,
-                  "rest": 30,
+                  "rest": 20,
                   "working": false,
                   "logReps": false,
                   "note": "Get up off the floor from lying down, any method."
@@ -401,7 +479,7 @@
                   "movementType": "reps",
                   "sets": 1,
                   "reps": 10,
-                  "rest": 30,
+                  "rest": 20,
                   "working": false,
                   "logReps": false
                 }
@@ -461,14 +539,34 @@
               "emoji": "🧊",
               "exercises": [
                 {
-                  "name": "Aerobic Cool-Down",
-                  "equipment": "Bike / Jog",
+                  "name": "Quad Stretch",
+                  "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 600,
+                  "seconds": 30,
+                  "perSide": true,
                   "working": false,
-                  "logReps": false,
-                  "note": "10 min easy."
+                  "logReps": false
+                },
+                {
+                  "name": "Standing Hamstring Stretch",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "perSide": true,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Calf Stretch",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "perSide": true,
+                  "working": false,
+                  "logReps": false
                 }
               ]
             }
@@ -703,7 +801,7 @@
           "title": "Lower — ME Circuit (WO #3)",
           "emoji": "🦵",
           "day": "mon",
-          "duration": 50,
+          "duration": 30,
           "groupRest": 60,
           "equipment": "Box · Bodyweight",
           "notes": "ME LEG PROGRESSION · WO #3 — Bodyweight. 6×10 each; finish all sets of an exercise before the next. Hold the tempos, don't rush. Rests: jumps 45s/set · Box Step-Ups & Lunges 30s/set · 60s between exercises.",
@@ -713,14 +811,43 @@
               "emoji": "🔥",
               "exercises": [
                 {
-                  "name": "Light Aerobic Warm-Up",
-                  "equipment": "Bike / Jog",
+                  "name": "High Knees",
+                  "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 780,
+                  "seconds": 40,
                   "working": false,
                   "logReps": false,
-                  "note": "10–15 min, build to Z3 effort the final 2 min."
+                  "note": "Quick feet, drive the knees to hip height."
+                },
+                {
+                  "name": "Jumping Jacks",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 40,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Butt Kicks",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Bodyweight Squats",
+                  "equipment": "Bodyweight",
+                  "movementType": "reps",
+                  "sets": 1,
+                  "reps": 15,
+                  "rest": 0,
+                  "working": false,
+                  "logReps": false,
+                  "note": "Full depth, controlled — grease the pattern."
                 },
                 {
                   "name": "Get-Ups",
@@ -728,7 +855,7 @@
                   "movementType": "reps",
                   "sets": 1,
                   "reps": 10,
-                  "rest": 30,
+                  "rest": 20,
                   "working": false,
                   "logReps": false,
                   "note": "Get up off the floor from lying down, any method."
@@ -739,7 +866,7 @@
                   "movementType": "reps",
                   "sets": 1,
                   "reps": 10,
-                  "rest": 30,
+                  "rest": 20,
                   "working": false,
                   "logReps": false
                 }
@@ -799,14 +926,34 @@
               "emoji": "🧊",
               "exercises": [
                 {
-                  "name": "Aerobic Cool-Down",
-                  "equipment": "Bike / Jog",
+                  "name": "Quad Stretch",
+                  "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 600,
+                  "seconds": 30,
+                  "perSide": true,
                   "working": false,
-                  "logReps": false,
-                  "note": "10 min easy."
+                  "logReps": false
+                },
+                {
+                  "name": "Standing Hamstring Stretch",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "perSide": true,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Calf Stretch",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "perSide": true,
+                  "working": false,
+                  "logReps": false
                 }
               ]
             }
@@ -1044,7 +1191,7 @@
           "title": "Lower — ME Circuit (WO #4)",
           "emoji": "🦵",
           "day": "mon",
-          "duration": 65,
+          "duration": 45,
           "groupRest": 60,
           "equipment": "Box · Vest · Kettlebell · Dumbbell",
           "notes": "ME LEG PROGRESSION · WO #4 — +≤10% BW (vest). 5×10 each; finish all sets of an exercise before the next. Hold the tempos, don't rush. Rests: jumps 60s/set · Box Step-Ups & Lunges 60s/set · 60s between exercises.",
@@ -1054,14 +1201,43 @@
               "emoji": "🔥",
               "exercises": [
                 {
-                  "name": "Light Aerobic Warm-Up",
-                  "equipment": "Bike / Jog",
+                  "name": "High Knees",
+                  "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 780,
+                  "seconds": 40,
                   "working": false,
                   "logReps": false,
-                  "note": "10–15 min, build to Z3 effort the final 2 min."
+                  "note": "Quick feet, drive the knees to hip height."
+                },
+                {
+                  "name": "Jumping Jacks",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 40,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Butt Kicks",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Bodyweight Squats",
+                  "equipment": "Bodyweight",
+                  "movementType": "reps",
+                  "sets": 1,
+                  "reps": 15,
+                  "rest": 0,
+                  "working": false,
+                  "logReps": false,
+                  "note": "Full depth, controlled — grease the pattern."
                 },
                 {
                   "name": "Get-Ups",
@@ -1069,7 +1245,7 @@
                   "movementType": "reps",
                   "sets": 1,
                   "reps": 10,
-                  "rest": 30,
+                  "rest": 20,
                   "working": false,
                   "logReps": false,
                   "note": "Get up off the floor from lying down, any method."
@@ -1080,7 +1256,7 @@
                   "movementType": "reps",
                   "sets": 1,
                   "reps": 10,
-                  "rest": 30,
+                  "rest": 20,
                   "working": false,
                   "logReps": false
                 }
@@ -1158,14 +1334,34 @@
               "emoji": "🧊",
               "exercises": [
                 {
-                  "name": "Aerobic Cool-Down",
-                  "equipment": "Bike / Jog",
+                  "name": "Quad Stretch",
+                  "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 600,
+                  "seconds": 30,
+                  "perSide": true,
                   "working": false,
-                  "logReps": false,
-                  "note": "10 min easy."
+                  "logReps": false
+                },
+                {
+                  "name": "Standing Hamstring Stretch",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "perSide": true,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Calf Stretch",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "perSide": true,
+                  "working": false,
+                  "logReps": false
                 }
               ]
             }
@@ -1417,7 +1613,7 @@
           "title": "Lower — ME Circuit (WO #5)",
           "emoji": "🦵",
           "day": "mon",
-          "duration": 65,
+          "duration": 45,
           "groupRest": 90,
           "equipment": "Box · Vest · Kettlebell · Dumbbell",
           "notes": "ME LEG PROGRESSION · WO #5 — +10% BW. 6×10 each; finish all sets of an exercise before the next. Hold the tempos, don't rush. Rests: jumps 45s/set · Box Step-Ups & Lunges 30s/set · 90s between exercises.",
@@ -1427,14 +1623,43 @@
               "emoji": "🔥",
               "exercises": [
                 {
-                  "name": "Light Aerobic Warm-Up",
-                  "equipment": "Bike / Jog",
+                  "name": "High Knees",
+                  "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 780,
+                  "seconds": 40,
                   "working": false,
                   "logReps": false,
-                  "note": "10–15 min, build to Z3 effort the final 2 min."
+                  "note": "Quick feet, drive the knees to hip height."
+                },
+                {
+                  "name": "Jumping Jacks",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 40,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Butt Kicks",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Bodyweight Squats",
+                  "equipment": "Bodyweight",
+                  "movementType": "reps",
+                  "sets": 1,
+                  "reps": 15,
+                  "rest": 0,
+                  "working": false,
+                  "logReps": false,
+                  "note": "Full depth, controlled — grease the pattern."
                 },
                 {
                   "name": "Get-Ups",
@@ -1442,7 +1667,7 @@
                   "movementType": "reps",
                   "sets": 1,
                   "reps": 10,
-                  "rest": 30,
+                  "rest": 20,
                   "working": false,
                   "logReps": false,
                   "note": "Get up off the floor from lying down, any method."
@@ -1453,7 +1678,7 @@
                   "movementType": "reps",
                   "sets": 1,
                   "reps": 10,
-                  "rest": 30,
+                  "rest": 20,
                   "working": false,
                   "logReps": false
                 }
@@ -1531,14 +1756,34 @@
               "emoji": "🧊",
               "exercises": [
                 {
-                  "name": "Aerobic Cool-Down",
-                  "equipment": "Bike / Jog",
+                  "name": "Quad Stretch",
+                  "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 600,
+                  "seconds": 30,
+                  "perSide": true,
                   "working": false,
-                  "logReps": false,
-                  "note": "10 min easy."
+                  "logReps": false
+                },
+                {
+                  "name": "Standing Hamstring Stretch",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "perSide": true,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Calf Stretch",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "perSide": true,
+                  "working": false,
+                  "logReps": false
                 }
               ]
             }
@@ -1793,7 +2038,7 @@
           "title": "Lower — Travel (Bodyweight)",
           "emoji": "🦵",
           "day": "mon",
-          "duration": 40,
+          "duration": 30,
           "groupRest": 60,
           "equipment": "Box · Bodyweight",
           "notes": "Travel week — bodyweight core four only (use a step/curb for step-ups; no vest/KB). Keep it easy. Resume the ME progression (~WO #6) when home — treat a fully missed week as 'drop back two.'",
@@ -1803,14 +2048,43 @@
               "emoji": "🔥",
               "exercises": [
                 {
-                  "name": "Light Aerobic Warm-Up",
-                  "equipment": "Bike / Jog",
+                  "name": "High Knees",
+                  "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 780,
+                  "seconds": 40,
                   "working": false,
                   "logReps": false,
-                  "note": "10–15 min, build to Z3 effort the final 2 min."
+                  "note": "Quick feet, drive the knees to hip height."
+                },
+                {
+                  "name": "Jumping Jacks",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 40,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Butt Kicks",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Bodyweight Squats",
+                  "equipment": "Bodyweight",
+                  "movementType": "reps",
+                  "sets": 1,
+                  "reps": 15,
+                  "rest": 0,
+                  "working": false,
+                  "logReps": false,
+                  "note": "Full depth, controlled — grease the pattern."
                 },
                 {
                   "name": "Get-Ups",
@@ -1818,7 +2092,7 @@
                   "movementType": "reps",
                   "sets": 1,
                   "reps": 10,
-                  "rest": 30,
+                  "rest": 20,
                   "working": false,
                   "logReps": false,
                   "note": "Get up off the floor from lying down, any method."
@@ -1829,7 +2103,7 @@
                   "movementType": "reps",
                   "sets": 1,
                   "reps": 10,
-                  "rest": 30,
+                  "rest": 20,
                   "working": false,
                   "logReps": false
                 }
@@ -1889,14 +2163,34 @@
               "emoji": "🧊",
               "exercises": [
                 {
-                  "name": "Aerobic Cool-Down",
-                  "equipment": "Bike / Jog",
+                  "name": "Quad Stretch",
+                  "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 600,
+                  "seconds": 30,
+                  "perSide": true,
                   "working": false,
-                  "logReps": false,
-                  "note": "10 min easy."
+                  "logReps": false
+                },
+                {
+                  "name": "Standing Hamstring Stretch",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "perSide": true,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Calf Stretch",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "perSide": true,
+                  "working": false,
+                  "logReps": false
                 }
               ]
             }
@@ -2102,7 +2396,7 @@
           "title": "Lower — ME Circuit (WO #7)",
           "emoji": "🦵",
           "day": "mon",
-          "duration": 55,
+          "duration": 40,
           "groupRest": 60,
           "equipment": "Box · Vest · Kettlebell · Dumbbell",
           "notes": "ME LEG PROGRESSION · WO #7 — +10% BW. 6×10 each; finish all sets of an exercise before the next. Hold the tempos, don't rush. Rests: jumps 30s/set · Box Step-Ups & Lunges 30s/set · 60s between exercises.",
@@ -2112,14 +2406,43 @@
               "emoji": "🔥",
               "exercises": [
                 {
-                  "name": "Light Aerobic Warm-Up",
-                  "equipment": "Bike / Jog",
+                  "name": "High Knees",
+                  "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 780,
+                  "seconds": 40,
                   "working": false,
                   "logReps": false,
-                  "note": "10–15 min, build to Z3 effort the final 2 min."
+                  "note": "Quick feet, drive the knees to hip height."
+                },
+                {
+                  "name": "Jumping Jacks",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 40,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Butt Kicks",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Bodyweight Squats",
+                  "equipment": "Bodyweight",
+                  "movementType": "reps",
+                  "sets": 1,
+                  "reps": 15,
+                  "rest": 0,
+                  "working": false,
+                  "logReps": false,
+                  "note": "Full depth, controlled — grease the pattern."
                 },
                 {
                   "name": "Get-Ups",
@@ -2127,7 +2450,7 @@
                   "movementType": "reps",
                   "sets": 1,
                   "reps": 10,
-                  "rest": 30,
+                  "rest": 20,
                   "working": false,
                   "logReps": false,
                   "note": "Get up off the floor from lying down, any method."
@@ -2138,7 +2461,7 @@
                   "movementType": "reps",
                   "sets": 1,
                   "reps": 10,
-                  "rest": 30,
+                  "rest": 20,
                   "working": false,
                   "logReps": false
                 }
@@ -2216,14 +2539,34 @@
               "emoji": "🧊",
               "exercises": [
                 {
-                  "name": "Aerobic Cool-Down",
-                  "equipment": "Bike / Jog",
+                  "name": "Quad Stretch",
+                  "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 600,
+                  "seconds": 30,
+                  "perSide": true,
                   "working": false,
-                  "logReps": false,
-                  "note": "10 min easy."
+                  "logReps": false
+                },
+                {
+                  "name": "Standing Hamstring Stretch",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "perSide": true,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Calf Stretch",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "perSide": true,
+                  "working": false,
+                  "logReps": false
                 }
               ]
             }
@@ -2478,7 +2821,7 @@
           "title": "Lower — ME Circuit (WO #8)",
           "emoji": "🦵",
           "day": "mon",
-          "duration": 70,
+          "duration": 55,
           "groupRest": 60,
           "equipment": "Box · Vest · Kettlebell · Dumbbell",
           "notes": "ME LEG PROGRESSION · WO #8 — +10% BW. 8×10 each; finish all sets of an exercise before the next. Hold the tempos, don't rush. Rests: jumps 45s/set · Box Step-Ups & Lunges 30s/set · 60s between exercises.",
@@ -2488,14 +2831,43 @@
               "emoji": "🔥",
               "exercises": [
                 {
-                  "name": "Light Aerobic Warm-Up",
-                  "equipment": "Bike / Jog",
+                  "name": "High Knees",
+                  "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 780,
+                  "seconds": 40,
                   "working": false,
                   "logReps": false,
-                  "note": "10–15 min, build to Z3 effort the final 2 min."
+                  "note": "Quick feet, drive the knees to hip height."
+                },
+                {
+                  "name": "Jumping Jacks",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 40,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Butt Kicks",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Bodyweight Squats",
+                  "equipment": "Bodyweight",
+                  "movementType": "reps",
+                  "sets": 1,
+                  "reps": 15,
+                  "rest": 0,
+                  "working": false,
+                  "logReps": false,
+                  "note": "Full depth, controlled — grease the pattern."
                 },
                 {
                   "name": "Get-Ups",
@@ -2503,7 +2875,7 @@
                   "movementType": "reps",
                   "sets": 1,
                   "reps": 10,
-                  "rest": 30,
+                  "rest": 20,
                   "working": false,
                   "logReps": false,
                   "note": "Get up off the floor from lying down, any method."
@@ -2514,7 +2886,7 @@
                   "movementType": "reps",
                   "sets": 1,
                   "reps": 10,
-                  "rest": 30,
+                  "rest": 20,
                   "working": false,
                   "logReps": false
                 }
@@ -2592,14 +2964,34 @@
               "emoji": "🧊",
               "exercises": [
                 {
-                  "name": "Aerobic Cool-Down",
-                  "equipment": "Bike / Jog",
+                  "name": "Quad Stretch",
+                  "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 600,
+                  "seconds": 30,
+                  "perSide": true,
                   "working": false,
-                  "logReps": false,
-                  "note": "10 min easy."
+                  "logReps": false
+                },
+                {
+                  "name": "Standing Hamstring Stretch",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "perSide": true,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Calf Stretch",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "perSide": true,
+                  "working": false,
+                  "logReps": false
                 }
               ]
             }
@@ -2851,7 +3243,7 @@
           "title": "Lower — ME Circuit (WO #9)",
           "emoji": "🦵",
           "day": "mon",
-          "duration": 60,
+          "duration": 40,
           "groupRest": 45,
           "equipment": "Box · Vest · Kettlebell · Dumbbell",
           "notes": "ME LEG PROGRESSION · WO #9 — +15% BW. 6×10 each; finish all sets of an exercise before the next. Hold the tempos, don't rush. Rests: jumps 40s/set · Box Step-Ups & Lunges 30s/set · 45s between exercises.",
@@ -2861,14 +3253,43 @@
               "emoji": "🔥",
               "exercises": [
                 {
-                  "name": "Light Aerobic Warm-Up",
-                  "equipment": "Bike / Jog",
+                  "name": "High Knees",
+                  "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 780,
+                  "seconds": 40,
                   "working": false,
                   "logReps": false,
-                  "note": "10–15 min, build to Z3 effort the final 2 min."
+                  "note": "Quick feet, drive the knees to hip height."
+                },
+                {
+                  "name": "Jumping Jacks",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 40,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Butt Kicks",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Bodyweight Squats",
+                  "equipment": "Bodyweight",
+                  "movementType": "reps",
+                  "sets": 1,
+                  "reps": 15,
+                  "rest": 0,
+                  "working": false,
+                  "logReps": false,
+                  "note": "Full depth, controlled — grease the pattern."
                 },
                 {
                   "name": "Get-Ups",
@@ -2876,7 +3297,7 @@
                   "movementType": "reps",
                   "sets": 1,
                   "reps": 10,
-                  "rest": 30,
+                  "rest": 20,
                   "working": false,
                   "logReps": false,
                   "note": "Get up off the floor from lying down, any method."
@@ -2887,7 +3308,7 @@
                   "movementType": "reps",
                   "sets": 1,
                   "reps": 10,
-                  "rest": 30,
+                  "rest": 20,
                   "working": false,
                   "logReps": false
                 }
@@ -2965,14 +3386,34 @@
               "emoji": "🧊",
               "exercises": [
                 {
-                  "name": "Aerobic Cool-Down",
-                  "equipment": "Bike / Jog",
+                  "name": "Quad Stretch",
+                  "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 600,
+                  "seconds": 30,
+                  "perSide": true,
                   "working": false,
-                  "logReps": false,
-                  "note": "10 min easy."
+                  "logReps": false
+                },
+                {
+                  "name": "Standing Hamstring Stretch",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "perSide": true,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Calf Stretch",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "perSide": true,
+                  "working": false,
+                  "logReps": false
                 }
               ]
             }
@@ -3227,7 +3668,7 @@
           "title": "Lower — ME Circuit (WO #10)",
           "emoji": "🦵",
           "day": "mon",
-          "duration": 70,
+          "duration": 55,
           "groupRest": 30,
           "equipment": "Box · Vest · Kettlebell · Dumbbell",
           "notes": "ME LEG PROGRESSION · WO #10 — +15% BW. 8×10 each; finish all sets of an exercise before the next. Hold the tempos, don't rush. Rests: jumps 45s/set · Box Step-Ups & Lunges 30s/set · 30s between exercises.",
@@ -3237,14 +3678,43 @@
               "emoji": "🔥",
               "exercises": [
                 {
-                  "name": "Light Aerobic Warm-Up",
-                  "equipment": "Bike / Jog",
+                  "name": "High Knees",
+                  "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 780,
+                  "seconds": 40,
                   "working": false,
                   "logReps": false,
-                  "note": "10–15 min, build to Z3 effort the final 2 min."
+                  "note": "Quick feet, drive the knees to hip height."
+                },
+                {
+                  "name": "Jumping Jacks",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 40,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Butt Kicks",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Bodyweight Squats",
+                  "equipment": "Bodyweight",
+                  "movementType": "reps",
+                  "sets": 1,
+                  "reps": 15,
+                  "rest": 0,
+                  "working": false,
+                  "logReps": false,
+                  "note": "Full depth, controlled — grease the pattern."
                 },
                 {
                   "name": "Get-Ups",
@@ -3252,7 +3722,7 @@
                   "movementType": "reps",
                   "sets": 1,
                   "reps": 10,
-                  "rest": 30,
+                  "rest": 20,
                   "working": false,
                   "logReps": false,
                   "note": "Get up off the floor from lying down, any method."
@@ -3263,7 +3733,7 @@
                   "movementType": "reps",
                   "sets": 1,
                   "reps": 10,
-                  "rest": 30,
+                  "rest": 20,
                   "working": false,
                   "logReps": false
                 }
@@ -3341,14 +3811,34 @@
               "emoji": "🧊",
               "exercises": [
                 {
-                  "name": "Aerobic Cool-Down",
-                  "equipment": "Bike / Jog",
+                  "name": "Quad Stretch",
+                  "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 600,
+                  "seconds": 30,
+                  "perSide": true,
                   "working": false,
-                  "logReps": false,
-                  "note": "10 min easy."
+                  "logReps": false
+                },
+                {
+                  "name": "Standing Hamstring Stretch",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "perSide": true,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Calf Stretch",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "perSide": true,
+                  "working": false,
+                  "logReps": false
                 }
               ]
             }
@@ -3601,7 +4091,7 @@
           "title": "Lower — ME Circuit (WO #11)",
           "emoji": "🦵",
           "day": "mon",
-          "duration": 60,
+          "duration": 45,
           "groupRest": 30,
           "equipment": "Box · Vest · Kettlebell · Dumbbell",
           "notes": "ME LEG PROGRESSION · WO #11 — +15% BW. 8×10 each; finish all sets of an exercise before the next. Hold the tempos, don't rush. Rests: jumps 30s/set · Box Step-Ups & Lunges 20s/set · 30s between exercises.",
@@ -3611,14 +4101,43 @@
               "emoji": "🔥",
               "exercises": [
                 {
-                  "name": "Light Aerobic Warm-Up",
-                  "equipment": "Bike / Jog",
+                  "name": "High Knees",
+                  "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 780,
+                  "seconds": 40,
                   "working": false,
                   "logReps": false,
-                  "note": "10–15 min, build to Z3 effort the final 2 min."
+                  "note": "Quick feet, drive the knees to hip height."
+                },
+                {
+                  "name": "Jumping Jacks",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 40,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Butt Kicks",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Bodyweight Squats",
+                  "equipment": "Bodyweight",
+                  "movementType": "reps",
+                  "sets": 1,
+                  "reps": 15,
+                  "rest": 0,
+                  "working": false,
+                  "logReps": false,
+                  "note": "Full depth, controlled — grease the pattern."
                 },
                 {
                   "name": "Get-Ups",
@@ -3626,7 +4145,7 @@
                   "movementType": "reps",
                   "sets": 1,
                   "reps": 10,
-                  "rest": 30,
+                  "rest": 20,
                   "working": false,
                   "logReps": false,
                   "note": "Get up off the floor from lying down, any method."
@@ -3637,7 +4156,7 @@
                   "movementType": "reps",
                   "sets": 1,
                   "reps": 10,
-                  "rest": 30,
+                  "rest": 20,
                   "working": false,
                   "logReps": false
                 }
@@ -3715,14 +4234,34 @@
               "emoji": "🧊",
               "exercises": [
                 {
-                  "name": "Aerobic Cool-Down",
-                  "equipment": "Bike / Jog",
+                  "name": "Quad Stretch",
+                  "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 600,
+                  "seconds": 30,
+                  "perSide": true,
                   "working": false,
-                  "logReps": false,
-                  "note": "10 min easy."
+                  "logReps": false
+                },
+                {
+                  "name": "Standing Hamstring Stretch",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "perSide": true,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Calf Stretch",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "perSide": true,
+                  "working": false,
+                  "logReps": false
                 }
               ]
             }
@@ -3978,7 +4517,7 @@
           "title": "Lower — ME Circuit (WO #12)",
           "emoji": "🦵",
           "day": "mon",
-          "duration": 50,
+          "duration": 35,
           "groupRest": 20,
           "equipment": "Box · Vest · Kettlebell · Dumbbell",
           "notes": "ME LEG PROGRESSION · WO #12 — +15% BW. 8×10 each; finish all sets of an exercise before the next. Hold the tempos, don't rush. Rests: jumps 15s/set · Box Step-Ups & Lunges 15s/set · 20s between exercises.",
@@ -3988,14 +4527,43 @@
               "emoji": "🔥",
               "exercises": [
                 {
-                  "name": "Light Aerobic Warm-Up",
-                  "equipment": "Bike / Jog",
+                  "name": "High Knees",
+                  "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 780,
+                  "seconds": 40,
                   "working": false,
                   "logReps": false,
-                  "note": "10–15 min, build to Z3 effort the final 2 min."
+                  "note": "Quick feet, drive the knees to hip height."
+                },
+                {
+                  "name": "Jumping Jacks",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 40,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Butt Kicks",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Bodyweight Squats",
+                  "equipment": "Bodyweight",
+                  "movementType": "reps",
+                  "sets": 1,
+                  "reps": 15,
+                  "rest": 0,
+                  "working": false,
+                  "logReps": false,
+                  "note": "Full depth, controlled — grease the pattern."
                 },
                 {
                   "name": "Get-Ups",
@@ -4003,7 +4571,7 @@
                   "movementType": "reps",
                   "sets": 1,
                   "reps": 10,
-                  "rest": 30,
+                  "rest": 20,
                   "working": false,
                   "logReps": false,
                   "note": "Get up off the floor from lying down, any method."
@@ -4014,7 +4582,7 @@
                   "movementType": "reps",
                   "sets": 1,
                   "reps": 10,
-                  "rest": 30,
+                  "rest": 20,
                   "working": false,
                   "logReps": false
                 }
@@ -4092,14 +4660,34 @@
               "emoji": "🧊",
               "exercises": [
                 {
-                  "name": "Aerobic Cool-Down",
-                  "equipment": "Bike / Jog",
+                  "name": "Quad Stretch",
+                  "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 600,
+                  "seconds": 30,
+                  "perSide": true,
                   "working": false,
-                  "logReps": false,
-                  "note": "10 min easy."
+                  "logReps": false
+                },
+                {
+                  "name": "Standing Hamstring Stretch",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "perSide": true,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Calf Stretch",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "perSide": true,
+                  "working": false,
+                  "logReps": false
                 }
               ]
             }
@@ -4352,7 +4940,7 @@
           "title": "Lower — ME Circuit (WO #13)",
           "emoji": "🦵",
           "day": "mon",
-          "duration": 45,
+          "duration": 30,
           "groupRest": 10,
           "equipment": "Box · Vest · Kettlebell · Dumbbell",
           "notes": "ME LEG PROGRESSION · WO #13 — +15% BW. 8×10 each; finish all sets of an exercise before the next. Hold the tempos, don't rush. Rests: jumps 10s/set · Box Step-Ups & Lunges 10s/set · 10s between exercises.",
@@ -4362,14 +4950,43 @@
               "emoji": "🔥",
               "exercises": [
                 {
-                  "name": "Light Aerobic Warm-Up",
-                  "equipment": "Bike / Jog",
+                  "name": "High Knees",
+                  "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 780,
+                  "seconds": 40,
                   "working": false,
                   "logReps": false,
-                  "note": "10–15 min, build to Z3 effort the final 2 min."
+                  "note": "Quick feet, drive the knees to hip height."
+                },
+                {
+                  "name": "Jumping Jacks",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 40,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Butt Kicks",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Bodyweight Squats",
+                  "equipment": "Bodyweight",
+                  "movementType": "reps",
+                  "sets": 1,
+                  "reps": 15,
+                  "rest": 0,
+                  "working": false,
+                  "logReps": false,
+                  "note": "Full depth, controlled — grease the pattern."
                 },
                 {
                   "name": "Get-Ups",
@@ -4377,7 +4994,7 @@
                   "movementType": "reps",
                   "sets": 1,
                   "reps": 10,
-                  "rest": 30,
+                  "rest": 20,
                   "working": false,
                   "logReps": false,
                   "note": "Get up off the floor from lying down, any method."
@@ -4388,7 +5005,7 @@
                   "movementType": "reps",
                   "sets": 1,
                   "reps": 10,
-                  "rest": 30,
+                  "rest": 20,
                   "working": false,
                   "logReps": false
                 }
@@ -4466,14 +5083,34 @@
               "emoji": "🧊",
               "exercises": [
                 {
-                  "name": "Aerobic Cool-Down",
-                  "equipment": "Bike / Jog",
+                  "name": "Quad Stretch",
+                  "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 600,
+                  "seconds": 30,
+                  "perSide": true,
                   "working": false,
-                  "logReps": false,
-                  "note": "10 min easy."
+                  "logReps": false
+                },
+                {
+                  "name": "Standing Hamstring Stretch",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "perSide": true,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Calf Stretch",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "perSide": true,
+                  "working": false,
+                  "logReps": false
                 }
               ]
             }
@@ -4729,7 +5366,7 @@
           "title": "Lower — ME Circuit (WO #14)",
           "emoji": "🦵",
           "day": "mon",
-          "duration": 45,
+          "duration": 30,
           "groupRest": 10,
           "equipment": "Box · Vest · Kettlebell · Dumbbell",
           "notes": "ME LEG PROGRESSION · WO #14 — +15% BW. 8×10 each; finish all sets of an exercise before the next. Hold the tempos, don't rush. Rests: jumps 10s/set · Box Step-Ups & Lunges 10s/set · 10s between exercises.",
@@ -4739,14 +5376,43 @@
               "emoji": "🔥",
               "exercises": [
                 {
-                  "name": "Light Aerobic Warm-Up",
-                  "equipment": "Bike / Jog",
+                  "name": "High Knees",
+                  "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 780,
+                  "seconds": 40,
                   "working": false,
                   "logReps": false,
-                  "note": "10–15 min, build to Z3 effort the final 2 min."
+                  "note": "Quick feet, drive the knees to hip height."
+                },
+                {
+                  "name": "Jumping Jacks",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 40,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Butt Kicks",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Bodyweight Squats",
+                  "equipment": "Bodyweight",
+                  "movementType": "reps",
+                  "sets": 1,
+                  "reps": 15,
+                  "rest": 0,
+                  "working": false,
+                  "logReps": false,
+                  "note": "Full depth, controlled — grease the pattern."
                 },
                 {
                   "name": "Get-Ups",
@@ -4754,7 +5420,7 @@
                   "movementType": "reps",
                   "sets": 1,
                   "reps": 10,
-                  "rest": 30,
+                  "rest": 20,
                   "working": false,
                   "logReps": false,
                   "note": "Get up off the floor from lying down, any method."
@@ -4765,7 +5431,7 @@
                   "movementType": "reps",
                   "sets": 1,
                   "reps": 10,
-                  "rest": 30,
+                  "rest": 20,
                   "working": false,
                   "logReps": false
                 }
@@ -4843,14 +5509,34 @@
               "emoji": "🧊",
               "exercises": [
                 {
-                  "name": "Aerobic Cool-Down",
-                  "equipment": "Bike / Jog",
+                  "name": "Quad Stretch",
+                  "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 600,
+                  "seconds": 30,
+                  "perSide": true,
                   "working": false,
-                  "logReps": false,
-                  "note": "10 min easy."
+                  "logReps": false
+                },
+                {
+                  "name": "Standing Hamstring Stretch",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "perSide": true,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Calf Stretch",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "perSide": true,
+                  "working": false,
+                  "logReps": false
                 }
               ]
             }
@@ -5103,7 +5789,7 @@
           "title": "Lower — Maintenance",
           "emoji": "🦵",
           "day": "mon",
-          "duration": 40,
+          "duration": 30,
           "groupRest": 60,
           "equipment": "Box · Bodyweight",
           "notes": "Lower maintenance — bodyweight, 3×10, easy. ME progression is complete; keep the patterns sharp without fatiguing the legs during the race taper.",
@@ -5113,14 +5799,43 @@
               "emoji": "🔥",
               "exercises": [
                 {
-                  "name": "Light Aerobic Warm-Up",
-                  "equipment": "Bike / Jog",
+                  "name": "High Knees",
+                  "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 780,
+                  "seconds": 40,
                   "working": false,
                   "logReps": false,
-                  "note": "10–15 min, build to Z3 effort the final 2 min."
+                  "note": "Quick feet, drive the knees to hip height."
+                },
+                {
+                  "name": "Jumping Jacks",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 40,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Butt Kicks",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Bodyweight Squats",
+                  "equipment": "Bodyweight",
+                  "movementType": "reps",
+                  "sets": 1,
+                  "reps": 15,
+                  "rest": 0,
+                  "working": false,
+                  "logReps": false,
+                  "note": "Full depth, controlled — grease the pattern."
                 },
                 {
                   "name": "Get-Ups",
@@ -5128,7 +5843,7 @@
                   "movementType": "reps",
                   "sets": 1,
                   "reps": 10,
-                  "rest": 30,
+                  "rest": 20,
                   "working": false,
                   "logReps": false,
                   "note": "Get up off the floor from lying down, any method."
@@ -5139,7 +5854,7 @@
                   "movementType": "reps",
                   "sets": 1,
                   "reps": 10,
-                  "rest": 30,
+                  "rest": 20,
                   "working": false,
                   "logReps": false
                 }
@@ -5199,14 +5914,34 @@
               "emoji": "🧊",
               "exercises": [
                 {
-                  "name": "Aerobic Cool-Down",
-                  "equipment": "Bike / Jog",
+                  "name": "Quad Stretch",
+                  "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 600,
+                  "seconds": 30,
+                  "perSide": true,
                   "working": false,
-                  "logReps": false,
-                  "note": "10 min easy."
+                  "logReps": false
+                },
+                {
+                  "name": "Standing Hamstring Stretch",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "perSide": true,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Calf Stretch",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "perSide": true,
+                  "working": false,
+                  "logReps": false
                 }
               ]
             }
@@ -5462,7 +6197,7 @@
           "title": "Lower — Maintenance",
           "emoji": "🦵",
           "day": "mon",
-          "duration": 40,
+          "duration": 30,
           "groupRest": 60,
           "equipment": "Box · Bodyweight",
           "notes": "Lower maintenance — bodyweight, 3×10, easy. ME progression is complete; keep the patterns sharp without fatiguing the legs during the race taper.",
@@ -5472,14 +6207,43 @@
               "emoji": "🔥",
               "exercises": [
                 {
-                  "name": "Light Aerobic Warm-Up",
-                  "equipment": "Bike / Jog",
+                  "name": "High Knees",
+                  "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 780,
+                  "seconds": 40,
                   "working": false,
                   "logReps": false,
-                  "note": "10–15 min, build to Z3 effort the final 2 min."
+                  "note": "Quick feet, drive the knees to hip height."
+                },
+                {
+                  "name": "Jumping Jacks",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 40,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Butt Kicks",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Bodyweight Squats",
+                  "equipment": "Bodyweight",
+                  "movementType": "reps",
+                  "sets": 1,
+                  "reps": 15,
+                  "rest": 0,
+                  "working": false,
+                  "logReps": false,
+                  "note": "Full depth, controlled — grease the pattern."
                 },
                 {
                   "name": "Get-Ups",
@@ -5487,7 +6251,7 @@
                   "movementType": "reps",
                   "sets": 1,
                   "reps": 10,
-                  "rest": 30,
+                  "rest": 20,
                   "working": false,
                   "logReps": false,
                   "note": "Get up off the floor from lying down, any method."
@@ -5498,7 +6262,7 @@
                   "movementType": "reps",
                   "sets": 1,
                   "reps": 10,
-                  "rest": 30,
+                  "rest": 20,
                   "working": false,
                   "logReps": false
                 }
@@ -5558,14 +6322,34 @@
               "emoji": "🧊",
               "exercises": [
                 {
-                  "name": "Aerobic Cool-Down",
-                  "equipment": "Bike / Jog",
+                  "name": "Quad Stretch",
+                  "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 600,
+                  "seconds": 30,
+                  "perSide": true,
                   "working": false,
-                  "logReps": false,
-                  "note": "10 min easy."
+                  "logReps": false
+                },
+                {
+                  "name": "Standing Hamstring Stretch",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "perSide": true,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Calf Stretch",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "perSide": true,
+                  "working": false,
+                  "logReps": false
                 }
               ]
             }
@@ -5793,7 +6577,7 @@
           "title": "Lower — Maintenance",
           "emoji": "🦵",
           "day": "mon",
-          "duration": 40,
+          "duration": 30,
           "groupRest": 60,
           "equipment": "Box · Bodyweight",
           "notes": "Lower maintenance — bodyweight, 3×10, easy. ME progression is complete; keep the patterns sharp without fatiguing the legs during the race taper.",
@@ -5803,14 +6587,43 @@
               "emoji": "🔥",
               "exercises": [
                 {
-                  "name": "Light Aerobic Warm-Up",
-                  "equipment": "Bike / Jog",
+                  "name": "High Knees",
+                  "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 780,
+                  "seconds": 40,
                   "working": false,
                   "logReps": false,
-                  "note": "10–15 min, build to Z3 effort the final 2 min."
+                  "note": "Quick feet, drive the knees to hip height."
+                },
+                {
+                  "name": "Jumping Jacks",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 40,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Butt Kicks",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Bodyweight Squats",
+                  "equipment": "Bodyweight",
+                  "movementType": "reps",
+                  "sets": 1,
+                  "reps": 15,
+                  "rest": 0,
+                  "working": false,
+                  "logReps": false,
+                  "note": "Full depth, controlled — grease the pattern."
                 },
                 {
                   "name": "Get-Ups",
@@ -5818,7 +6631,7 @@
                   "movementType": "reps",
                   "sets": 1,
                   "reps": 10,
-                  "rest": 30,
+                  "rest": 20,
                   "working": false,
                   "logReps": false,
                   "note": "Get up off the floor from lying down, any method."
@@ -5829,7 +6642,7 @@
                   "movementType": "reps",
                   "sets": 1,
                   "reps": 10,
-                  "rest": 30,
+                  "rest": 20,
                   "working": false,
                   "logReps": false
                 }
@@ -5889,14 +6702,34 @@
               "emoji": "🧊",
               "exercises": [
                 {
-                  "name": "Aerobic Cool-Down",
-                  "equipment": "Bike / Jog",
+                  "name": "Quad Stretch",
+                  "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 600,
+                  "seconds": 30,
+                  "perSide": true,
                   "working": false,
-                  "logReps": false,
-                  "note": "10 min easy."
+                  "logReps": false
+                },
+                {
+                  "name": "Standing Hamstring Stretch",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "perSide": true,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Calf Stretch",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "perSide": true,
+                  "working": false,
+                  "logReps": false
                 }
               ]
             }
@@ -6127,7 +6960,7 @@
           "title": "Lower — Maintenance",
           "emoji": "🦵",
           "day": "mon",
-          "duration": 40,
+          "duration": 30,
           "groupRest": 60,
           "equipment": "Box · Bodyweight",
           "notes": "Lower maintenance — bodyweight, 3×10, easy. ME progression is complete; keep the patterns sharp without fatiguing the legs during the race taper.",
@@ -6137,14 +6970,43 @@
               "emoji": "🔥",
               "exercises": [
                 {
-                  "name": "Light Aerobic Warm-Up",
-                  "equipment": "Bike / Jog",
+                  "name": "High Knees",
+                  "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 780,
+                  "seconds": 40,
                   "working": false,
                   "logReps": false,
-                  "note": "10–15 min, build to Z3 effort the final 2 min."
+                  "note": "Quick feet, drive the knees to hip height."
+                },
+                {
+                  "name": "Jumping Jacks",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 40,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Butt Kicks",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Bodyweight Squats",
+                  "equipment": "Bodyweight",
+                  "movementType": "reps",
+                  "sets": 1,
+                  "reps": 15,
+                  "rest": 0,
+                  "working": false,
+                  "logReps": false,
+                  "note": "Full depth, controlled — grease the pattern."
                 },
                 {
                   "name": "Get-Ups",
@@ -6152,7 +7014,7 @@
                   "movementType": "reps",
                   "sets": 1,
                   "reps": 10,
-                  "rest": 30,
+                  "rest": 20,
                   "working": false,
                   "logReps": false,
                   "note": "Get up off the floor from lying down, any method."
@@ -6163,7 +7025,7 @@
                   "movementType": "reps",
                   "sets": 1,
                   "reps": 10,
-                  "rest": 30,
+                  "rest": 20,
                   "working": false,
                   "logReps": false
                 }
@@ -6223,14 +7085,34 @@
               "emoji": "🧊",
               "exercises": [
                 {
-                  "name": "Aerobic Cool-Down",
-                  "equipment": "Bike / Jog",
+                  "name": "Quad Stretch",
+                  "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 600,
+                  "seconds": 30,
+                  "perSide": true,
                   "working": false,
-                  "logReps": false,
-                  "note": "10 min easy."
+                  "logReps": false
+                },
+                {
+                  "name": "Standing Hamstring Stretch",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "perSide": true,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Calf Stretch",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "perSide": true,
+                  "working": false,
+                  "logReps": false
                 }
               ]
             }
@@ -6482,7 +7364,7 @@
           "title": "Lower — Maintenance",
           "emoji": "🦵",
           "day": "mon",
-          "duration": 40,
+          "duration": 30,
           "groupRest": 60,
           "equipment": "Box · Bodyweight",
           "notes": "Lower maintenance — bodyweight, 3×10, easy. ME progression is complete; keep the patterns sharp without fatiguing the legs during the race taper.",
@@ -6492,14 +7374,43 @@
               "emoji": "🔥",
               "exercises": [
                 {
-                  "name": "Light Aerobic Warm-Up",
-                  "equipment": "Bike / Jog",
+                  "name": "High Knees",
+                  "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 780,
+                  "seconds": 40,
                   "working": false,
                   "logReps": false,
-                  "note": "10–15 min, build to Z3 effort the final 2 min."
+                  "note": "Quick feet, drive the knees to hip height."
+                },
+                {
+                  "name": "Jumping Jacks",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 40,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Butt Kicks",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Bodyweight Squats",
+                  "equipment": "Bodyweight",
+                  "movementType": "reps",
+                  "sets": 1,
+                  "reps": 15,
+                  "rest": 0,
+                  "working": false,
+                  "logReps": false,
+                  "note": "Full depth, controlled — grease the pattern."
                 },
                 {
                   "name": "Get-Ups",
@@ -6507,7 +7418,7 @@
                   "movementType": "reps",
                   "sets": 1,
                   "reps": 10,
-                  "rest": 30,
+                  "rest": 20,
                   "working": false,
                   "logReps": false,
                   "note": "Get up off the floor from lying down, any method."
@@ -6518,7 +7429,7 @@
                   "movementType": "reps",
                   "sets": 1,
                   "reps": 10,
-                  "rest": 30,
+                  "rest": 20,
                   "working": false,
                   "logReps": false
                 }
@@ -6578,14 +7489,34 @@
               "emoji": "🧊",
               "exercises": [
                 {
-                  "name": "Aerobic Cool-Down",
-                  "equipment": "Bike / Jog",
+                  "name": "Quad Stretch",
+                  "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 600,
+                  "seconds": 30,
+                  "perSide": true,
                   "working": false,
-                  "logReps": false,
-                  "note": "10 min easy."
+                  "logReps": false
+                },
+                {
+                  "name": "Standing Hamstring Stretch",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "perSide": true,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Calf Stretch",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "perSide": true,
+                  "working": false,
+                  "logReps": false
                 }
               ]
             }
@@ -6816,7 +7747,7 @@
           "title": "Lower — Maintenance",
           "emoji": "🦵",
           "day": "mon",
-          "duration": 40,
+          "duration": 30,
           "groupRest": 60,
           "equipment": "Box · Bodyweight",
           "notes": "Lower maintenance — bodyweight, 3×10, easy. ME progression is complete; keep the patterns sharp without fatiguing the legs during the race taper.",
@@ -6826,14 +7757,43 @@
               "emoji": "🔥",
               "exercises": [
                 {
-                  "name": "Light Aerobic Warm-Up",
-                  "equipment": "Bike / Jog",
+                  "name": "High Knees",
+                  "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 780,
+                  "seconds": 40,
                   "working": false,
                   "logReps": false,
-                  "note": "10–15 min, build to Z3 effort the final 2 min."
+                  "note": "Quick feet, drive the knees to hip height."
+                },
+                {
+                  "name": "Jumping Jacks",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 40,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Butt Kicks",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Bodyweight Squats",
+                  "equipment": "Bodyweight",
+                  "movementType": "reps",
+                  "sets": 1,
+                  "reps": 15,
+                  "rest": 0,
+                  "working": false,
+                  "logReps": false,
+                  "note": "Full depth, controlled — grease the pattern."
                 },
                 {
                   "name": "Get-Ups",
@@ -6841,7 +7801,7 @@
                   "movementType": "reps",
                   "sets": 1,
                   "reps": 10,
-                  "rest": 30,
+                  "rest": 20,
                   "working": false,
                   "logReps": false,
                   "note": "Get up off the floor from lying down, any method."
@@ -6852,7 +7812,7 @@
                   "movementType": "reps",
                   "sets": 1,
                   "reps": 10,
-                  "rest": 30,
+                  "rest": 20,
                   "working": false,
                   "logReps": false
                 }
@@ -6912,14 +7872,34 @@
               "emoji": "🧊",
               "exercises": [
                 {
-                  "name": "Aerobic Cool-Down",
-                  "equipment": "Bike / Jog",
+                  "name": "Quad Stretch",
+                  "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 600,
+                  "seconds": 30,
+                  "perSide": true,
                   "working": false,
-                  "logReps": false,
-                  "note": "10 min easy."
+                  "logReps": false
+                },
+                {
+                  "name": "Standing Hamstring Stretch",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "perSide": true,
+                  "working": false,
+                  "logReps": false
+                },
+                {
+                  "name": "Calf Stretch",
+                  "equipment": "Bodyweight",
+                  "movementType": "timed",
+                  "sets": 1,
+                  "seconds": 30,
+                  "perSide": true,
+                  "working": false,
+                  "logReps": false
                 }
               ]
             }
