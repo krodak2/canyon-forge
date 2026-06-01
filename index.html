@@ -212,7 +212,7 @@
    - Run / Bike / Rest = info card; Run/Bike get a Mark Done toggle.
    - Home = Today's session(s) + Calendar. 2-a-day supported.
    ========================================================================= */
-const APP_VERSION='1.1';
+const APP_VERSION='1.2';
 const REST = { core:15, standard:30, hard:45, group:60, skill:90, none:0 };
 const MONTHS=['January','February','March','April','May','June','July','August','September','October','November','December'];
 const DOW=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
@@ -298,12 +298,13 @@ function swapKeyForSession(s){ return s.type==='pullups'?'pullups':s.id.replace(
 function normalizeStrength(s){
   return {
     id:swapKeyForSession(s), title:s.title, emoji:s.emoji, duration:s.duration, equipment:s.equipment, tagline:s.notes||'',
+    groupRest:s.groupRest,
     blocks:(s.blocks||[]).map(function(b){ return {
       name:b.name, emoji:b.emoji,
       exercises:(b.exercises||[]).map(function(e){ return {
         name:e.name, equipment:e.equipment, type:e.movementType, sets:e.sets, reps:e.reps, seconds:e.seconds,
         rest:(e.rest!=null?e.rest:REST.standard), perSide:!!e.perSide, unit:e.unit, pattern:e.swapGroup, ss:e.superset,
-        working:true, logReps:e.logReps, media:e.media||PATTERN_EMOJI[e.swapGroup]||'🏋️', note:e.note
+        working:(e.working!==false), logReps:e.logReps, media:e.media||PATTERN_EMOJI[e.swapGroup]||'🏋️', note:e.note
       }; })
     }; })
   };
@@ -577,9 +578,11 @@ function applySwap(bi,ei,name){
    PLAYER
    ====================================================================== */
 let P=null;
-function roundRest(exs){ if(exs.length===1)return exs[0].rest||REST.standard; return Math.min(REST.hard,Math.max(...exs.map(e=>e.rest||REST.standard))); }
+/* honor each exercise's literal between-set rest (no snapping/capping — see APP_BUILDER_NOTES) */
+function roundRest(exs){ const r=e=>e.rest!=null?e.rest:REST.standard; return exs.length===1?r(exs[0]):Math.max(...exs.map(r)); }
 function buildSteps(w,wid){
   const steps=[{kind:'lead',seconds:10}];
+  const groupSec=(w.groupRest!=null?w.groupRest:REST.group);   // session can override the 60s between-exercise rest
   const segs=[];
   w.blocks.forEach((b,bi)=>{
     let i=0;
@@ -599,7 +602,7 @@ function buildSteps(w,wid){
       const round=[];
       exs.forEach((ex,k)=>{const wkstep={kind:'work',block,ex,set:s,totalSets:sets,wid,superPos:exs.length>1?k+1:0,superCount:exs.length};steps.push(wkstep);round.push(wkstep);});
       const lastSet=s===sets;let restSec=0,isGroup=false;
-      if(!lastSet)restSec=roundRest(exs); else if(!isLastUnit){restSec=REST.group;isGroup=true;}
+      if(!lastSet)restSec=roundRest(exs); else if(!isLastUnit){restSec=groupSec;isGroup=true;}
       if(restSec>0)steps.push({kind:'rest',seconds:restSec,block,round,isGroup});
     }
   });
