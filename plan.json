@@ -24,7 +24,7 @@
           "title": "Lower — ME Circuit (WO #1)",
           "emoji": "🦵",
           "day": "mon",
-          "duration": 35,
+          "duration": 30,
           "groupRest": 60,
           "equipment": "Box · Bodyweight",
           "notes": "ME LEG PROGRESSION · WO #1 — Bodyweight. 6×10 each; finish all sets of an exercise before the next. Hold the tempos, don't rush. Rests: jumps 60s/set · Box Step-Ups & Lunges 30s/set · 60s between exercises.",
@@ -38,7 +38,7 @@
                   "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 40,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
                   "note": "Quick feet, drive the knees to hip height."
@@ -48,7 +48,7 @@
                   "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 40,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false
                 },
@@ -64,10 +64,9 @@
                 {
                   "name": "Bodyweight Squats",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 15,
-                  "rest": 0,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
                   "note": "Full depth, controlled — grease the pattern."
@@ -75,21 +74,19 @@
                 {
                   "name": "Get-Ups",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 10,
-                  "rest": 20,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
-                  "note": "Get up off the floor from lying down, any method."
+                  "note": "Up off the floor and back down, any method."
                 },
                 {
                   "name": "Burpees",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 10,
-                  "rest": 20,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false
                 }
@@ -414,7 +411,7 @@
           "title": "Lower — ME Circuit (WO #2)",
           "emoji": "🦵",
           "day": "mon",
-          "duration": 35,
+          "duration": 30,
           "groupRest": 60,
           "equipment": "Box · Bodyweight",
           "notes": "ME LEG PROGRESSION · WO #2 — Bodyweight. 6×10 each; finish all sets of an exercise before the next. Hold the tempos, don't rush. Rests: jumps 60s/set · Box Step-Ups & Lunges 30s/set · 60s between exercises.",
@@ -428,7 +425,7 @@
                   "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 40,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
                   "note": "Quick feet, drive the knees to hip height."
@@ -438,7 +435,7 @@
                   "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 40,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false
                 },
@@ -454,10 +451,9 @@
                 {
                   "name": "Bodyweight Squats",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 15,
-                  "rest": 0,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
                   "note": "Full depth, controlled — grease the pattern."
@@ -465,21 +461,19 @@
                 {
                   "name": "Get-Ups",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 10,
-                  "rest": 20,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
-                  "note": "Get up off the floor from lying down, any method."
+                  "note": "Up off the floor and back down, any method."
                 },
                 {
                   "name": "Burpees",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 10,
-                  "rest": 20,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false
                 }
@@ -815,7 +809,7 @@
                   "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 40,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
                   "note": "Quick feet, drive the knees to hip height."
@@ -825,7 +819,7 @@
                   "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 40,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false
                 },
@@ -841,10 +835,9 @@
                 {
                   "name": "Bodyweight Squats",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 15,
-                  "rest": 0,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
                   "note": "Full depth, controlled — grease the pattern."
@@ -852,21 +845,19 @@
                 {
                   "name": "Get-Ups",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 10,
-                  "rest": 20,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
-                  "note": "Get up off the floor from lying down, any method."
+                  "note": "Up off the floor and back down, any method."
                 },
                 {
                   "name": "Burpees",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 10,
-                  "rest": 20,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false
                 }
@@ -1205,7 +1196,7 @@
                   "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 40,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
                   "note": "Quick feet, drive the knees to hip height."
@@ -1215,7 +1206,7 @@
                   "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 40,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false
                 },
@@ -1231,10 +1222,9 @@
                 {
                   "name": "Bodyweight Squats",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 15,
-                  "rest": 0,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
                   "note": "Full depth, controlled — grease the pattern."
@@ -1242,21 +1232,19 @@
                 {
                   "name": "Get-Ups",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 10,
-                  "rest": 20,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
-                  "note": "Get up off the floor from lying down, any method."
+                  "note": "Up off the floor and back down, any method."
                 },
                 {
                   "name": "Burpees",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 10,
-                  "rest": 20,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false
                 }
@@ -1627,7 +1615,7 @@
                   "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 40,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
                   "note": "Quick feet, drive the knees to hip height."
@@ -1637,7 +1625,7 @@
                   "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 40,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false
                 },
@@ -1653,10 +1641,9 @@
                 {
                   "name": "Bodyweight Squats",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 15,
-                  "rest": 0,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
                   "note": "Full depth, controlled — grease the pattern."
@@ -1664,21 +1651,19 @@
                 {
                   "name": "Get-Ups",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 10,
-                  "rest": 20,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
-                  "note": "Get up off the floor from lying down, any method."
+                  "note": "Up off the floor and back down, any method."
                 },
                 {
                   "name": "Burpees",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 10,
-                  "rest": 20,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false
                 }
@@ -2052,7 +2037,7 @@
                   "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 40,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
                   "note": "Quick feet, drive the knees to hip height."
@@ -2062,7 +2047,7 @@
                   "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 40,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false
                 },
@@ -2078,10 +2063,9 @@
                 {
                   "name": "Bodyweight Squats",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 15,
-                  "rest": 0,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
                   "note": "Full depth, controlled — grease the pattern."
@@ -2089,21 +2073,19 @@
                 {
                   "name": "Get-Ups",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 10,
-                  "rest": 20,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
-                  "note": "Get up off the floor from lying down, any method."
+                  "note": "Up off the floor and back down, any method."
                 },
                 {
                   "name": "Burpees",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 10,
-                  "rest": 20,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false
                 }
@@ -2396,7 +2378,7 @@
           "title": "Lower — ME Circuit (WO #7)",
           "emoji": "🦵",
           "day": "mon",
-          "duration": 40,
+          "duration": 35,
           "groupRest": 60,
           "equipment": "Box · Vest · Kettlebell · Dumbbell",
           "notes": "ME LEG PROGRESSION · WO #7 — +10% BW. 6×10 each; finish all sets of an exercise before the next. Hold the tempos, don't rush. Rests: jumps 30s/set · Box Step-Ups & Lunges 30s/set · 60s between exercises.",
@@ -2410,7 +2392,7 @@
                   "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 40,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
                   "note": "Quick feet, drive the knees to hip height."
@@ -2420,7 +2402,7 @@
                   "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 40,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false
                 },
@@ -2436,10 +2418,9 @@
                 {
                   "name": "Bodyweight Squats",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 15,
-                  "rest": 0,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
                   "note": "Full depth, controlled — grease the pattern."
@@ -2447,21 +2428,19 @@
                 {
                   "name": "Get-Ups",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 10,
-                  "rest": 20,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
-                  "note": "Get up off the floor from lying down, any method."
+                  "note": "Up off the floor and back down, any method."
                 },
                 {
                   "name": "Burpees",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 10,
-                  "rest": 20,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false
                 }
@@ -2835,7 +2814,7 @@
                   "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 40,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
                   "note": "Quick feet, drive the knees to hip height."
@@ -2845,7 +2824,7 @@
                   "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 40,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false
                 },
@@ -2861,10 +2840,9 @@
                 {
                   "name": "Bodyweight Squats",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 15,
-                  "rest": 0,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
                   "note": "Full depth, controlled — grease the pattern."
@@ -2872,21 +2850,19 @@
                 {
                   "name": "Get-Ups",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 10,
-                  "rest": 20,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
-                  "note": "Get up off the floor from lying down, any method."
+                  "note": "Up off the floor and back down, any method."
                 },
                 {
                   "name": "Burpees",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 10,
-                  "rest": 20,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false
                 }
@@ -3257,7 +3233,7 @@
                   "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 40,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
                   "note": "Quick feet, drive the knees to hip height."
@@ -3267,7 +3243,7 @@
                   "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 40,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false
                 },
@@ -3283,10 +3259,9 @@
                 {
                   "name": "Bodyweight Squats",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 15,
-                  "rest": 0,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
                   "note": "Full depth, controlled — grease the pattern."
@@ -3294,21 +3269,19 @@
                 {
                   "name": "Get-Ups",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 10,
-                  "rest": 20,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
-                  "note": "Get up off the floor from lying down, any method."
+                  "note": "Up off the floor and back down, any method."
                 },
                 {
                   "name": "Burpees",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 10,
-                  "rest": 20,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false
                 }
@@ -3668,7 +3641,7 @@
           "title": "Lower — ME Circuit (WO #10)",
           "emoji": "🦵",
           "day": "mon",
-          "duration": 55,
+          "duration": 50,
           "groupRest": 30,
           "equipment": "Box · Vest · Kettlebell · Dumbbell",
           "notes": "ME LEG PROGRESSION · WO #10 — +15% BW. 8×10 each; finish all sets of an exercise before the next. Hold the tempos, don't rush. Rests: jumps 45s/set · Box Step-Ups & Lunges 30s/set · 30s between exercises.",
@@ -3682,7 +3655,7 @@
                   "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 40,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
                   "note": "Quick feet, drive the knees to hip height."
@@ -3692,7 +3665,7 @@
                   "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 40,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false
                 },
@@ -3708,10 +3681,9 @@
                 {
                   "name": "Bodyweight Squats",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 15,
-                  "rest": 0,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
                   "note": "Full depth, controlled — grease the pattern."
@@ -3719,21 +3691,19 @@
                 {
                   "name": "Get-Ups",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 10,
-                  "rest": 20,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
-                  "note": "Get up off the floor from lying down, any method."
+                  "note": "Up off the floor and back down, any method."
                 },
                 {
                   "name": "Burpees",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 10,
-                  "rest": 20,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false
                 }
@@ -4091,7 +4061,7 @@
           "title": "Lower — ME Circuit (WO #11)",
           "emoji": "🦵",
           "day": "mon",
-          "duration": 45,
+          "duration": 40,
           "groupRest": 30,
           "equipment": "Box · Vest · Kettlebell · Dumbbell",
           "notes": "ME LEG PROGRESSION · WO #11 — +15% BW. 8×10 each; finish all sets of an exercise before the next. Hold the tempos, don't rush. Rests: jumps 30s/set · Box Step-Ups & Lunges 20s/set · 30s between exercises.",
@@ -4105,7 +4075,7 @@
                   "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 40,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
                   "note": "Quick feet, drive the knees to hip height."
@@ -4115,7 +4085,7 @@
                   "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 40,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false
                 },
@@ -4131,10 +4101,9 @@
                 {
                   "name": "Bodyweight Squats",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 15,
-                  "rest": 0,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
                   "note": "Full depth, controlled — grease the pattern."
@@ -4142,21 +4111,19 @@
                 {
                   "name": "Get-Ups",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 10,
-                  "rest": 20,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
-                  "note": "Get up off the floor from lying down, any method."
+                  "note": "Up off the floor and back down, any method."
                 },
                 {
                   "name": "Burpees",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 10,
-                  "rest": 20,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false
                 }
@@ -4531,7 +4498,7 @@
                   "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 40,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
                   "note": "Quick feet, drive the knees to hip height."
@@ -4541,7 +4508,7 @@
                   "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 40,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false
                 },
@@ -4557,10 +4524,9 @@
                 {
                   "name": "Bodyweight Squats",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 15,
-                  "rest": 0,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
                   "note": "Full depth, controlled — grease the pattern."
@@ -4568,21 +4534,19 @@
                 {
                   "name": "Get-Ups",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 10,
-                  "rest": 20,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
-                  "note": "Get up off the floor from lying down, any method."
+                  "note": "Up off the floor and back down, any method."
                 },
                 {
                   "name": "Burpees",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 10,
-                  "rest": 20,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false
                 }
@@ -4954,7 +4918,7 @@
                   "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 40,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
                   "note": "Quick feet, drive the knees to hip height."
@@ -4964,7 +4928,7 @@
                   "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 40,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false
                 },
@@ -4980,10 +4944,9 @@
                 {
                   "name": "Bodyweight Squats",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 15,
-                  "rest": 0,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
                   "note": "Full depth, controlled — grease the pattern."
@@ -4991,21 +4954,19 @@
                 {
                   "name": "Get-Ups",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 10,
-                  "rest": 20,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
-                  "note": "Get up off the floor from lying down, any method."
+                  "note": "Up off the floor and back down, any method."
                 },
                 {
                   "name": "Burpees",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 10,
-                  "rest": 20,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false
                 }
@@ -5380,7 +5341,7 @@
                   "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 40,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
                   "note": "Quick feet, drive the knees to hip height."
@@ -5390,7 +5351,7 @@
                   "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 40,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false
                 },
@@ -5406,10 +5367,9 @@
                 {
                   "name": "Bodyweight Squats",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 15,
-                  "rest": 0,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
                   "note": "Full depth, controlled — grease the pattern."
@@ -5417,21 +5377,19 @@
                 {
                   "name": "Get-Ups",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 10,
-                  "rest": 20,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
-                  "note": "Get up off the floor from lying down, any method."
+                  "note": "Up off the floor and back down, any method."
                 },
                 {
                   "name": "Burpees",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 10,
-                  "rest": 20,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false
                 }
@@ -5803,7 +5761,7 @@
                   "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 40,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
                   "note": "Quick feet, drive the knees to hip height."
@@ -5813,7 +5771,7 @@
                   "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 40,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false
                 },
@@ -5829,10 +5787,9 @@
                 {
                   "name": "Bodyweight Squats",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 15,
-                  "rest": 0,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
                   "note": "Full depth, controlled — grease the pattern."
@@ -5840,21 +5797,19 @@
                 {
                   "name": "Get-Ups",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 10,
-                  "rest": 20,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
-                  "note": "Get up off the floor from lying down, any method."
+                  "note": "Up off the floor and back down, any method."
                 },
                 {
                   "name": "Burpees",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 10,
-                  "rest": 20,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false
                 }
@@ -6211,7 +6166,7 @@
                   "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 40,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
                   "note": "Quick feet, drive the knees to hip height."
@@ -6221,7 +6176,7 @@
                   "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 40,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false
                 },
@@ -6237,10 +6192,9 @@
                 {
                   "name": "Bodyweight Squats",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 15,
-                  "rest": 0,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
                   "note": "Full depth, controlled — grease the pattern."
@@ -6248,21 +6202,19 @@
                 {
                   "name": "Get-Ups",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 10,
-                  "rest": 20,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
-                  "note": "Get up off the floor from lying down, any method."
+                  "note": "Up off the floor and back down, any method."
                 },
                 {
                   "name": "Burpees",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 10,
-                  "rest": 20,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false
                 }
@@ -6591,7 +6543,7 @@
                   "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 40,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
                   "note": "Quick feet, drive the knees to hip height."
@@ -6601,7 +6553,7 @@
                   "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 40,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false
                 },
@@ -6617,10 +6569,9 @@
                 {
                   "name": "Bodyweight Squats",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 15,
-                  "rest": 0,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
                   "note": "Full depth, controlled — grease the pattern."
@@ -6628,21 +6579,19 @@
                 {
                   "name": "Get-Ups",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 10,
-                  "rest": 20,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
-                  "note": "Get up off the floor from lying down, any method."
+                  "note": "Up off the floor and back down, any method."
                 },
                 {
                   "name": "Burpees",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 10,
-                  "rest": 20,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false
                 }
@@ -6974,7 +6923,7 @@
                   "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 40,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
                   "note": "Quick feet, drive the knees to hip height."
@@ -6984,7 +6933,7 @@
                   "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 40,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false
                 },
@@ -7000,10 +6949,9 @@
                 {
                   "name": "Bodyweight Squats",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 15,
-                  "rest": 0,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
                   "note": "Full depth, controlled — grease the pattern."
@@ -7011,21 +6959,19 @@
                 {
                   "name": "Get-Ups",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 10,
-                  "rest": 20,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
-                  "note": "Get up off the floor from lying down, any method."
+                  "note": "Up off the floor and back down, any method."
                 },
                 {
                   "name": "Burpees",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 10,
-                  "rest": 20,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false
                 }
@@ -7378,7 +7324,7 @@
                   "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 40,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
                   "note": "Quick feet, drive the knees to hip height."
@@ -7388,7 +7334,7 @@
                   "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 40,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false
                 },
@@ -7404,10 +7350,9 @@
                 {
                   "name": "Bodyweight Squats",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 15,
-                  "rest": 0,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
                   "note": "Full depth, controlled — grease the pattern."
@@ -7415,21 +7360,19 @@
                 {
                   "name": "Get-Ups",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 10,
-                  "rest": 20,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
-                  "note": "Get up off the floor from lying down, any method."
+                  "note": "Up off the floor and back down, any method."
                 },
                 {
                   "name": "Burpees",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 10,
-                  "rest": 20,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false
                 }
@@ -7761,7 +7704,7 @@
                   "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 40,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
                   "note": "Quick feet, drive the knees to hip height."
@@ -7771,7 +7714,7 @@
                   "equipment": "Bodyweight",
                   "movementType": "timed",
                   "sets": 1,
-                  "seconds": 40,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false
                 },
@@ -7787,10 +7730,9 @@
                 {
                   "name": "Bodyweight Squats",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 15,
-                  "rest": 0,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
                   "note": "Full depth, controlled — grease the pattern."
@@ -7798,21 +7740,19 @@
                 {
                   "name": "Get-Ups",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 10,
-                  "rest": 20,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false,
-                  "note": "Get up off the floor from lying down, any method."
+                  "note": "Up off the floor and back down, any method."
                 },
                 {
                   "name": "Burpees",
                   "equipment": "Bodyweight",
-                  "movementType": "reps",
+                  "movementType": "timed",
                   "sets": 1,
-                  "reps": 10,
-                  "rest": 20,
+                  "seconds": 30,
                   "working": false,
                   "logReps": false
                 }

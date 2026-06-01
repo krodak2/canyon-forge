@@ -160,20 +160,20 @@ def est_strength_min(blocks, group_rest=60):
 def s_me_legs(w, wo):
     warm = [
         {"name": "High Knees", "equipment": "Bodyweight", "movementType": "timed",
-         "sets": 1, "seconds": 40, "working": False, "logReps": False,
+         "sets": 1, "seconds": 30, "working": False, "logReps": False,
          "note": "Quick feet, drive the knees to hip height."},
         {"name": "Jumping Jacks", "equipment": "Bodyweight", "movementType": "timed",
-         "sets": 1, "seconds": 40, "working": False, "logReps": False},
+         "sets": 1, "seconds": 30, "working": False, "logReps": False},
         {"name": "Butt Kicks", "equipment": "Bodyweight", "movementType": "timed",
          "sets": 1, "seconds": 30, "working": False, "logReps": False},
-        {"name": "Bodyweight Squats", "equipment": "Bodyweight", "movementType": "reps",
-         "sets": 1, "reps": 15, "rest": 0, "working": False, "logReps": False,
+        {"name": "Bodyweight Squats", "equipment": "Bodyweight", "movementType": "timed",
+         "sets": 1, "seconds": 30, "working": False, "logReps": False,
          "note": "Full depth, controlled — grease the pattern."},
-        {"name": "Get-Ups", "equipment": "Bodyweight", "movementType": "reps",
-         "sets": 1, "reps": 10, "rest": 20, "working": False, "logReps": False,
-         "note": "Get up off the floor from lying down, any method."},
-        {"name": "Burpees", "equipment": "Bodyweight", "movementType": "reps",
-         "sets": 1, "reps": 10, "rest": 20, "working": False, "logReps": False},
+        {"name": "Get-Ups", "equipment": "Bodyweight", "movementType": "timed",
+         "sets": 1, "seconds": 30, "working": False, "logReps": False,
+         "note": "Up off the floor and back down, any method."},
+        {"name": "Burpees", "equipment": "Bodyweight", "movementType": "timed",
+         "sets": 1, "seconds": 30, "working": False, "logReps": False},
     ]
     cool = [
         {"name": "Quad Stretch", "equipment": "Bodyweight", "movementType": "timed",
@@ -223,7 +223,7 @@ def s_me_legs(w, wo):
     work = 18  # avg seconds of work per set
     set_rests = [rj, rj, rb, rb] + ([rj, rj] if added else [])
     circuit_s = sum(sets * work + max(0, sets - 1) * r for r in set_rests) + max(0, len(set_rests) - 1) * rx
-    dur = max(30, round((300 + circuit_s + 180) / 300) * 5)  # warm ~5m + circuit + cool ~3m, nearest 5m
+    dur = max(30, round((180 + circuit_s + 180) / 300) * 5)  # warm ~3m + circuit + cool ~3m, nearest 5m
     return {"id": f"w{w}-mon-lower", "type": "strength", "title": title, "emoji": "🦵", "day": "mon",
             "duration": dur, "groupRest": rx, "equipment": equip, "notes": notes,
             "blocks": [
