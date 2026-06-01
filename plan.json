@@ -13,8 +13,8 @@
       "focus": "Reactivate. Marquee: Humphreys Peak. Add strength.",
       "targets": {
         "lift": 2,
-        "run": 3,
-        "bike": 1,
+        "run": 4,
+        "bike": 0,
         "pullups": 3
       },
       "sessions": [
@@ -362,11 +362,25 @@
           "note": "[Base · pull-up wk 1] INTENSITY — 1 all-out AMRAP, then 3 back-off sets at ~60% of that number. Stop 0–1 before failure on AMRAP. Rest ~2 min (3 min around AMRAP sets). Accessory: 3×4 slow negatives (5s lower) + 2×20s dead hang."
         },
         {
-          "id": "w1-sat-long",
+          "id": "w1-sat-easy",
+          "type": "run",
+          "title": "Pre-Hike Shakeout",
+          "emoji": "🏃",
+          "day": "sat",
+          "runType": "easy",
+          "time": 30,
+          "targets": {
+            "hrZone": "1-2",
+            "rpe": 3
+          },
+          "notes": "Pre-Humphreys shakeout — short, flat, easy Z1–2. Stay loose, don't fatigue the legs. Dial in gear, fuel and hydration tonight for tomorrow's climb."
+        },
+        {
+          "id": "w1-sun-long",
           "type": "run",
           "title": "Humphreys Peak",
           "emoji": "🥾",
-          "day": "sat",
+          "day": "sun",
           "runType": "long",
           "distance": 12,
           "vertFt": 3300,
@@ -376,21 +390,6 @@
             "rpe": 5
           },
           "notes": "Season kickoff sustained climb. Steady hike-run, fuel every 30–45 min, never redline. Drink aggressively on the descent — 15-min timer, sip every beep, even when not thirsty."
-        },
-        {
-          "id": "w1-sun-bike",
-          "type": "bike",
-          "title": "Z2 Spin",
-          "emoji": "🚴",
-          "day": "sun",
-          "optional": true,
-          "bikeType": "recovery",
-          "time": 60,
-          "targets": {
-            "hrZone": "1-2",
-            "rpe": 3
-          },
-          "notes": "Optional aerobic flush on the cycling base. Skip if legs need rest before Saturday."
         }
       ]
     },

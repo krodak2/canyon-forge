@@ -393,13 +393,22 @@ def build_week(cfg):
     sessions += [s_upper(w, variant)]
     sessions += [s_weekday_quality(w, "thu", phase, w)]
     sessions += [pull_session(w, "fri", "C", prog)]
-    sessions += [s_long(w, "sat", *long_cfg[:3], notes=long_cfg[3])]
-    if sun == "bike":
-        sessions += [s_bike(w)]
-    elif sun == "rest":
-        sessions += [s_rest(w, "sun")]
-    elif isinstance(sun, tuple) and sun[0] == "b2b":
-        sessions += [s_b2b(w, sun[1], sun[2])]
+    if w == 1:
+        # Humphreys runs Sunday this week — Saturday is an easy shakeout to keep legs fresh.
+        sat = s_easy(w, "sat", 30,
+            "Pre-Humphreys shakeout — short, flat, easy Z1–2. Stay loose, don't fatigue the legs. "
+            "Dial in gear, fuel and hydration tonight for tomorrow's climb.")
+        sat["title"] = "Pre-Hike Shakeout"; sat["targets"] = {"hrZone": "1-2", "rpe": 3}
+        sessions += [sat]
+        sessions += [s_long(w, "sun", *long_cfg[:3], notes=long_cfg[3])]
+    else:
+        sessions += [s_long(w, "sat", *long_cfg[:3], notes=long_cfg[3])]
+        if sun == "bike":
+            sessions += [s_bike(w)]
+        elif sun == "rest":
+            sessions += [s_rest(w, "sun")]
+        elif isinstance(sun, tuple) and sun[0] == "b2b":
+            sessions += [s_b2b(w, sun[1], sun[2])]
 
     return {"week": w, "phase": phase, "focus": focus, "sessions": sessions}
 
